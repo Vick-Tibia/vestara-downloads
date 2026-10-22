@@ -4,6 +4,28 @@ Published player-client updates, newest version first. Dates are the UTC release
 
 <!-- vestara-client-history:v1; maintained by the publisher -->
 
+<!-- vestara-client:0.1.5 -->
+<!-- source-archive-sha256:552092e8662f0e01d901bedefda24cfbbdad18fb244fb2c22ef7abf2833947e7 -->
+<!-- source-content-sha256-v1:b2562b69ba20655471fbfc4973553e8e9f7f89853eba70fbb61967c406d2f745 -->
+## 0.1.5 — 2026-10-22
+
+Client 0.1.5 - Client version in the window title
+
+[Release and downloads](https://github.com/Vick-Tibia/vestara-downloads/releases/tag/client-0.1.5)
+
+### Fixed
+
+- Restored the published client version in the window title, for example Vestara Client 0.1.5.
+- Future Publisher releases automatically display the version entered during publishing.
+
+### Preserved
+
+- The title is set by the generated startup wrapper; the supplied original startup and all other retained source files remain unchanged.
+- Uses the same supplied build as 0.1.4, with the same minimal privacy and launcher-compatibility exclusions. No gameplay modules, bot features, connection settings or developer controls are changed.
+- Launcher-managed settings, hotkeys and maps remain separate from client release files.
+
+<!-- /vestara-client:0.1.5 -->
+
 <!-- vestara-client:0.1.4 -->
 <!-- source-archive-sha256:552092e8662f0e01d901bedefda24cfbbdad18fb244fb2c22ef7abf2833947e7 -->
 <!-- source-content-sha256-v1:b2562b69ba20655471fbfc4973553e8e9f7f89853eba70fbb61967c406d2f745 -->
