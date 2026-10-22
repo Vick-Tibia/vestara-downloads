@@ -4,6 +4,30 @@ Published player-client updates, newest version first. Dates are the UTC release
 
 <!-- vestara-client-history:v1; maintained by the publisher -->
 
+<!-- vestara-client:0.1.4 -->
+<!-- source-archive-sha256:552092e8662f0e01d901bedefda24cfbbdad18fb244fb2c22ef7abf2833947e7 -->
+<!-- source-content-sha256-v1:b2562b69ba20655471fbfc4973553e8e9f7f89853eba70fbb61967c406d2f745 -->
+## 0.1.4 — 2026-10-22
+
+Client 0.1.4 - Preserve the supplied client
+
+[Release and downloads](https://github.com/Vick-Tibia/vestara-downloads/releases/tag/client-0.1.4)
+
+### Fixed
+
+- Replaced broad client pruning with minimal exclusions to prevent packaging from removing supplied client features and supporting files.
+- Preserved the original startup script, module loading order, bot/mod files, connection settings, complete assets, DLLs and runtime extras such as bin contents.
+- Kept launcher-managed player settings and logs separate through a small startup bootstrap, while retaining the original startup script unchanged.
+
+### Changed
+
+- Only explicit privacy exclusions and compatibility constraints of existing launchers are applied. Every excluded or generated file is recorded during preparation.
+- This release repackages the same supplied source build as 0.1.3 with the new preservation rules; it does not claim a new executable build or additional server fixes.
+- The more complete client package increases the first-install download size. Existing compatible launchers continue to use changed-file downloads where possible.
+- Players can open Vestara Launcher, check for updates and choose Update client. Their launcher-managed settings, hotkeys and maps remain separate from client release files.
+
+<!-- /vestara-client:0.1.4 -->
+
 <!-- vestara-client:0.1.3 -->
 <!-- source-archive-sha256:552092e8662f0e01d901bedefda24cfbbdad18fb244fb2c22ef7abf2833947e7 -->
 <!-- source-content-sha256-v1:b2562b69ba20655471fbfc4973553e8e9f7f89853eba70fbb61967c406d2f745 -->
