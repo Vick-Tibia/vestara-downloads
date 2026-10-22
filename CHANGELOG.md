@@ -4,6 +4,29 @@ Published player-client updates, newest version first. Dates are the UTC release
 
 <!-- vestara-client-history:v1; maintained by the publisher -->
 
+<!-- vestara-client:0.1.3 -->
+<!-- source-archive-sha256:552092e8662f0e01d901bedefda24cfbbdad18fb244fb2c22ef7abf2833947e7 -->
+<!-- source-content-sha256-v1:b2562b69ba20655471fbfc4973553e8e9f7f89853eba70fbb61967c406d2f745 -->
+## 0.1.3 — 2026-10-22
+
+Client 0.1.3 - Restore packaged client features
+
+[Release and downloads](https://github.com/Vick-Tibia/vestara-downloads/releases/tag/client-0.1.3)
+
+### Fixed
+
+- Restored the Bot button, cave bot and full vBot scripts that were incorrectly excluded during player-client packaging.
+- Restored the supplied mod profiles, text editor, buttons, item selector and task module files.
+- Restored the final startup loading stage for higher-priority game modules, including attributes, proficiency, item lock, health circle and wheel.
+- Kept the bundled minimap initialization and separate player settings location without enabling bot restrictions.
+
+### Changed
+
+- Publishing now stops for unreviewed runtime modules or missing module dependencies/scripts instead of silently dropping them.
+- This release corrects packaging of the existing 0.1.2 source build. It preserves its executable and game content; no new server build is required.
+
+<!-- /vestara-client:0.1.3 -->
+
 <!-- vestara-client:0.1.2 -->
 <!-- source-archive-sha256:552092e8662f0e01d901bedefda24cfbbdad18fb244fb2c22ef7abf2833947e7 -->
 <!-- source-content-sha256-v1:b2562b69ba20655471fbfc4973553e8e9f7f89853eba70fbb61967c406d2f745 -->
