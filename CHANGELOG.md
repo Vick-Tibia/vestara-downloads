@@ -6,6 +6,7 @@ Published player-client updates, newest version first. Dates are the UTC release
 
 <!-- vestara-client:0.1.1 -->
 <!-- source-archive-sha256:0af0279089c2f2ad95e961848a3d489e03c66adb5aaf793564303ca2129b7ac2 -->
+<!-- source-content-sha256-v1:2cbd5726ce118479e4ed4a0e3d89805f86c870b1ac187a60e41edb650f013fc5 -->
 ## 0.1.1 — 2026-10-22
 
 Client update
@@ -21,6 +22,7 @@ Client update
 
 <!-- vestara-client:0.1.0 -->
 <!-- source-archive-sha256:0af0279089c2f2ad95e961848a3d489e03c66adb5aaf793564303ca2129b7ac2 -->
+<!-- source-content-sha256-v1:2cbd5726ce118479e4ed4a0e3d89805f86c870b1ac187a60e41edb650f013fc5 -->
 ## 0.1.0 — 2026-10-21
 
 First launcher player release
