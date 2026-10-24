@@ -4,6 +4,33 @@ Published player-client updates, newest version first. Dates are the UTC release
 
 <!-- vestara-client-history:v1; maintained by the publisher -->
 
+<!-- vestara-client:0.2.1 -->
+<!-- source-archive-sha256:1448096cdbdf05e23077ac9ed28b813b11552ae6088966d1bdd27856a058680d -->
+<!-- source-content-sha256-v1:093c3a2a749d347c94ce9804569c701cda700e0bd833d934487439386fbf086c -->
+## 0.2.1 — 2026-10-24
+
+Client update
+
+[Release and downloads](https://github.com/Vick-Tibia/vestara-downloads/releases/tag/client-0.2.1)
+
+### Added
+
+- The Vestara look: restyled windows, tabs, buttons and fonts across the client, and a new window icon.
+- A new login screen with background art, campfire music, embers and falling leaves.
+- The full world map is now on your minimap from your first login. Everything you have explored yourself and your map marks are kept.
+
+### Changed
+
+- Hotkeys are now per character. Each character keeps its own hotkeys, action bars and Ctrl+K hotkeys, loaded automatically when it logs in. A new character starts from its vocation's preset. You can turn this off in Options, Controls, under Per-Character Hotkeys.
+
+### Fixed
+
+- Hotkeys no longer reset after logging out and closing the client.
+- Action bar changes are saved right away, so they survive a crash or a forced close.
+- Closing the client no longer runs into an error in the market window.
+
+<!-- /vestara-client:0.2.1 -->
+
 <!-- vestara-client:0.2.0 -->
 <!-- source-archive-sha256:a6dd89830d774f8d7a560d25cd575e7d5ab20bcc4559a19ce6c38049f47454dd -->
 <!-- source-content-sha256-v1:97bf983623162f06240b487acb87a39adaff539eff56ceec9099b1e0fdf5f5a3 -->
