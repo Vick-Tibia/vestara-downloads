@@ -4,6 +4,34 @@ Published player-client updates, newest version first. Dates are the UTC release
 
 <!-- vestara-client-history:v1; maintained by the publisher -->
 
+<!-- vestara-client:0.2.0 -->
+<!-- source-archive-sha256:a6dd89830d774f8d7a560d25cd575e7d5ab20bcc4559a19ce6c38049f47454dd -->
+<!-- source-content-sha256-v1:97bf983623162f06240b487acb87a39adaff539eff56ceec9099b1e0fdf5f5a3 -->
+## 0.2.0 — 2026-10-24
+
+Client update
+
+[Release and downloads](https://github.com/Vick-Tibia/vestara-downloads/releases/tag/client-0.2.0)
+
+### Added
+
+- Masteries window, opened from its own toolbar button: talent trees for Knights, Sorcerers, Paladins and Druids, with attunements, spell changes and capstones.
+- Stack display: mastery stacks and effects show as small icons above creatures and players. Choose Mine, Everyone or Off for each kind in its settings.
+- New mastery spells in the spell list: Arrow Volley, Wolf Form, Bear Form, Beast Strike, Beast Cry, Blizzard, Overgrowth and Primal Avatar.
+- New looks: the Druid's spirit wolf, grove bear and primal avatar shapes, the corrupted Avatar of Light, and sanctified and unholy ground.
+
+### Changed
+
+- Item tooltips show the affix tier in the item title.
+- Spell icons in round talent-tree slots are drawn round.
+
+### Fixed
+
+- Hotkeys are saved reliably when you edit them, go offline or close the client.
+- Item tooltips no longer show a forge tier as affix tier 1.
+
+<!-- /vestara-client:0.2.0 -->
+
 <!-- vestara-client:0.1.5 -->
 <!-- source-archive-sha256:552092e8662f0e01d901bedefda24cfbbdad18fb244fb2c22ef7abf2833947e7 -->
 <!-- source-content-sha256-v1:b2562b69ba20655471fbfc4973553e8e9f7f89853eba70fbb61967c406d2f745 -->
