@@ -4,6 +4,50 @@ Published player-client updates, newest version first. Dates are the UTC release
 
 <!-- vestara-client-history:v1; maintained by the publisher -->
 
+<!-- vestara-client:0.3.0 -->
+<!-- source-archive-sha256:99b8fea7fbc7c90340cf112828b2ac2416c47223845b011a633a71d1f892e7bb -->
+<!-- source-content-sha256-v1:96a2870500357ddf8dfe7286031ceff49783629fd792eab512aee7cdd585b326 -->
+## 0.3.0 — 2026-10-25
+
+Client update
+
+[Release and downloads](https://github.com/Vick-Tibia/vestara-downloads/releases/tag/client-0.3.0)
+
+### Changed
+
+- Dungeons & Raids: a new window to queue with your party, a ready check before entering, and a reworked Ironjaw raid with new rewards.
+- Item modification window for affix stones, with a preview of what the stone can roll before you confirm.
+- Chat item links: Alt+click an item in your inventory, a backpack or the trade window to link it in chat. Hover the link to see the item's tooltip.
+- Inspect other players to see their equipment and skills.
+- Item star ratings from 1 to 10, shown with the item's rarity.
+- Adventurer's menu: the compass button next to Options lists every window by category. Use the star to choose which shortcuts stay on your sidebar.
+- The sidebar shortcut buttons are now grouped by category.
+- Active stances are highlighted on your action bars.
+- The new retail spells, with their own icons, learned automatically or from spell trainers.
+- Superior and distilled mana potions and five storm arrows, sold by the usual potion and arrow merchants.
+- NPC shops show item stats when you hover an item.
+- Vocation rebalance following retail 15.25 and 15.30: Wheel of Destiny perks, spell values and augments for every vocation. Masteries were adjusted to match.
+- Weapon proficiencies use the retail 15.33 values.
+- Affixes only roll stats the wearer can use, wands and rods get caster lines, and percent health/mana, attack speed and spell echo have caps. Existing items are re-rated automatically.
+- The skills window shows the maximum health and mana from your gear and your spell echo. Affix amounts are shown in their real units.
+- The built-in bot now offers healing and potion support only. Cave, target and attack automation are no longer available.
+
+### Fixed
+
+- Your attack square stays on the target after the first hit.
+- Prey, bestiary, kill tracker and analyser windows reopen when you log in.
+- Bag windows keep their size when the server refreshes them.
+- The minimap no longer snaps back after you drag it.
+- Toggling a stance repeatedly no longer crashes the client.
+- Classic controls: left+right click to look works reliably.
+- Ranged weapon tooltips colour only the attack number.
+- Daily reward item weight is shown in oz.
+- Global boost icons are centred on the game view.
+- Quick loot finds the corpse more reliably, and exercise weapons find the dummy on the tile you click.
+- The djinn fortress entrance doors open for everyone.
+
+<!-- /vestara-client:0.3.0 -->
+
 <!-- vestara-client:0.2.1 -->
 <!-- source-archive-sha256:1448096cdbdf05e23077ac9ed28b813b11552ae6088966d1bdd27856a058680d -->
 <!-- source-content-sha256-v1:093c3a2a749d347c94ce9804569c701cda700e0bd833d934487439386fbf086c -->
