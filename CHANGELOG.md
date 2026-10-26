@@ -4,6 +4,21 @@ Published player-client updates, newest version first. Dates are the UTC release
 
 <!-- vestara-client-history:v1; maintained by the publisher -->
 
+<!-- vestara-client:0.4.2 -->
+<!-- source-archive-sha256:2c4395cac0ec7a876d79386c9860ee64e6413072723201f13988c207fc70a8a1 -->
+<!-- source-content-sha256-v1:465ca0e9fe142ac67fed2f7ac6dbf86d6d87c92ad329ac3f61a7350911b1da00 -->
+## 0.4.2 — 2026-10-26
+
+Client update
+
+[Release and downloads](https://github.com/Vick-Tibia/vestara-downloads/releases/tag/client-0.4.2)
+
+### Fixed
+
+- The game no longer opens a black console window next to the client when it starts.
+
+<!-- /vestara-client:0.4.2 -->
+
 <!-- vestara-client:0.4.0 -->
 <!-- source-archive-sha256:ecdd68c49998da151cf11aa921dba53774242bdcb384476665d7562a515d549a -->
 <!-- source-content-sha256-v1:c4464c8a5b9940e0ab3778e811fdcd7c38f9b89c70128838b920be22e3d1125f -->
