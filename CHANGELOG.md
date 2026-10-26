@@ -4,6 +4,39 @@ Published player-client updates, newest version first. Dates are the UTC release
 
 <!-- vestara-client-history:v1; maintained by the publisher -->
 
+<!-- vestara-client:0.4.0 -->
+<!-- source-archive-sha256:ecdd68c49998da151cf11aa921dba53774242bdcb384476665d7562a515d549a -->
+<!-- source-content-sha256-v1:c4464c8a5b9940e0ab3778e811fdcd7c38f9b89c70128838b920be22e3d1125f -->
+## 0.4.0 — 2026-10-26
+
+Client update
+
+[Release and downloads](https://github.com/Vick-Tibia/vestara-downloads/releases/tag/client-0.4.0)
+
+### Added
+
+- 40 new outfits and the winged Duskwing outfit, available in the store.
+- The store now also sells mounts, prey packs and multitools.
+- Yasir buys the radiant and moonspawn creature drops that no other merchant takes, including moonspawn tentacles and headpieces.
+
+### Changed
+
+- Store offers show the real item pictures, and buying is faster.
+- Imported outfits are now store outfits instead of being unlocked for every player.
+
+### Fixed
+
+- Opening item offers in the store (such as Consumables and Boosts) no longer crashes the client, the store no longer locks up after opening, and the XP boost opens the right page.
+- The Goblin King is visible again.
+- The Goblin King doll and the pocket portal can no longer be worn as legs, and other custom items now use the right equipment slot, stacking and container behaviour.
+- Radiant and moonspawn creatures drop loot again.
+- NPC replies that span several lines are no longer lost, and Cledwyn's dialogue works again.
+- NPC token shops show prices and your balance in tokens instead of gold.
+- Item tooltip stars no longer appear in other tooltips.
+- Front Sweep's Wheel of Destiny augment now deals damage in its larger area.
+
+<!-- /vestara-client:0.4.0 -->
+
 <!-- vestara-client:0.3.0 -->
 <!-- source-archive-sha256:99b8fea7fbc7c90340cf112828b2ac2416c47223845b011a633a71d1f892e7bb -->
 <!-- source-content-sha256-v1:96a2870500357ddf8dfe7286031ceff49783629fd792eab512aee7cdd585b326 -->
