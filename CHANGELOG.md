@@ -4,6 +4,32 @@ Published player-client updates, newest version first. Dates are the UTC release
 
 <!-- vestara-client-history:v1; maintained by the publisher -->
 
+<!-- vestara-client:0.6.0 -->
+<!-- source-archive-sha256:b5180756c87fd1980aa8c68a2a3d6bc7fe154b38cd34e26d7b0cbf24b2e1be1e -->
+<!-- source-content-sha256-v1:56363fa2fe71686f12759af569b61fb867b89661faee369de7275a54b94bc899 -->
+## 0.6.0 — 2026-10-27
+
+Client update
+
+[Release and downloads](https://github.com/Vick-Tibia/vestara-downloads/releases/tag/client-0.6.0)
+
+### Added
+
+- A new look for the launcher: the campfire glade comes to life with drifting embers, fireflies and soft campfire music.
+- Music controls in the launcher: click the speaker to mute, hover over it to set the volume.
+- The login screen now shows your party gathered at the campfire, with new upbeat music, March of the Brave.
+
+### Changed
+
+- Music in the launcher and on the login screen now starts at 50% volume. If you never changed your music volume, it is lowered to 50% once.
+- The launcher's What's new now shows the latest update, including server updates.
+
+### Fixed
+
+- The launcher shows your client straight away after an update instead of appearing empty while old versions are cleaned up.
+
+<!-- /vestara-client:0.6.0 -->
+
 <!-- vestara-client:0.4.2 -->
 <!-- source-archive-sha256:2c4395cac0ec7a876d79386c9860ee64e6413072723201f13988c207fc70a8a1 -->
 <!-- source-content-sha256-v1:465ca0e9fe142ac67fed2f7ac6dbf86d6d87c92ad329ac3f61a7350911b1da00 -->
