@@ -4,6 +4,43 @@ Published player-client updates, newest version first. Dates are the UTC release
 
 <!-- vestara-client-history:v1; maintained by the publisher -->
 
+<!-- vestara-client:0.6.1 -->
+<!-- source-archive-sha256:b06ecca1eeae74db52aae0db74a20396aabc8d4ef194eaf95c6e33cb4748667e -->
+<!-- source-content-sha256-v1:af7efc6ed34eb7a836122f56872e94d481f39e5dc34121cfdcadf9fc20e548a3 -->
+## 0.6.1 — 2026-10-27
+
+Client update
+
+[Release and downloads](https://github.com/Vick-Tibia/vestara-downloads/releases/tag/client-0.6.1)
+
+### Added
+
+- New Vestara logo: the pixel-art stone gate, now on the launcher, the game client and the installer.
+- A redesigned Setup wizard for new players. Download it from https://github.com/Vick-Tibia/vestara-downloads/releases/latest/download/Vestara-Setup.exe
+- Store: choose how many to buy. Item offers such as boost tokens and exercise weapons have an Amount box in the purchase confirmation (up to 100 at once).
+
+### Changed
+
+- New experience rates, as voted by players: 5x up to level 100, 4x up to level 250, 3x up to level 500 and 2x after that.
+- All weapon skills (fist, club, sword, axe, distance and shielding) and magic level now train at 2x speed.
+- Catch-up XP and the extra low-level XP bonus have been removed, so the rates above are what you get. Boosted creatures, prey and XP boosts still apply on top.
+- The launcher now plays the quiet sounds of a campfire in the night forest, and the login screen plays Campfire Folk.
+- Raid rewards reset at the daily server save instead of 10:00.
+- The store's "Most Popular First" sort now lists the offers players buy most at the top.
+
+### Fixed
+
+- The launcher no longer fails to open with "Invalid launcher slot." after updating. If yours still won't open, download and run Vestara-Setup.exe from the link above: it installs over your launcher and keeps your game, settings and hotkeys.
+- Shields, spellbooks and two-handed weapons (bows, crossbows, katars) now count towards their set bonus, for example the Crown shield in the Crown Oath set.
+- Clicking "Weapons: All" in the Cyclopedia no longer freezes the client or disconnects you.
+- Sorting the battle list by health no longer leaves dead creatures behind in the list.
+- The store's sort order works, and "Newest First" is spelled correctly.
+- The Quest Tracker no longer opens by itself on every login, and closed analyser windows stay closed, even after the client crashed.
+- Hovering over the Reward Wall no longer leaves old text overlapping the new text.
+- The stance highlight on your action bar keeps animating while the stance is active.
+
+<!-- /vestara-client:0.6.1 -->
+
 <!-- vestara-client:0.6.0 -->
 <!-- source-archive-sha256:b5180756c87fd1980aa8c68a2a3d6bc7fe154b38cd34e26d7b0cbf24b2e1be1e -->
 <!-- source-content-sha256-v1:56363fa2fe71686f12759af569b61fb867b89661faee369de7275a54b94bc899 -->
