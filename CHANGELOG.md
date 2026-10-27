@@ -4,6 +4,31 @@ Published player-client updates, newest version first. Dates are the UTC release
 
 <!-- vestara-client-history:v1; maintained by the publisher -->
 
+<!-- vestara-client:0.6.2 -->
+<!-- source-archive-sha256:e3144fc3dfff6a920886014d13ff9d94df8be636ae4fd1a9f453cff5a7872dbd -->
+<!-- source-content-sha256-v1:95d2d3ef06b285068793a880852962c1a8780b8817e7addfd9643d10f8c8310e -->
+## 0.6.2 — 2026-10-27
+
+Client update
+
+[Release and downloads](https://github.com/Vick-Tibia/vestara-downloads/releases/tag/client-0.6.2)
+
+### Changed
+
+- The game map now also draws the ring of tiles just outside your screen, so the edges no longer show artefacts while you walk.
+- The launcher's sound is now instant to mute, fades out when you minimise the launcher or press Play, and fades back in when you return to it, even while an update is downloading.
+- The launcher no longer plays a sound when you press Play.
+- Elite and Mythic monsters drop rare items more often: only items rarer than 1% are boosted, the rarest up to 3.5x from Elites and 8x from Mythics. Common loot is unchanged.
+- Special backpacks drop more often: 10% from Mythic monsters (was 2%), and Elite monsters can now drop them too (1%).
+
+### Fixed
+
+- The chat cursor no longer jumps back to the start of the line after you type a space.
+- Runes (and any other object) can be bound to a Multi-Action slot again, whatever the button already shows.
+- Desktop and Start menu shortcuts now show the new Vestara icon after the launcher updates, without reinstalling.
+
+<!-- /vestara-client:0.6.2 -->
+
 <!-- vestara-client:0.6.1 -->
 <!-- source-archive-sha256:b06ecca1eeae74db52aae0db74a20396aabc8d4ef194eaf95c6e33cb4748667e -->
 <!-- source-content-sha256-v1:af7efc6ed34eb7a836122f56872e94d481f39e5dc34121cfdcadf9fc20e548a3 -->
