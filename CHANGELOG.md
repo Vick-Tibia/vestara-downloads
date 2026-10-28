@@ -4,6 +4,51 @@ Published player-client updates, newest version first. Dates are the UTC release
 
 <!-- vestara-client-history:v1; maintained by the publisher -->
 
+<!-- vestara-client:0.6.3 -->
+<!-- source-archive-sha256:0177ef8cbae68ad9098cb5433569dbd057264ed256e5b63ba70baa3f06eb1f11 -->
+<!-- source-content-sha256-v1:1cd85fea335e54dcd480d3fb6e219b68c871b398ee4a1aa857ce79771271243d -->
+## 0.6.3 — 2026-10-28
+
+Client update
+
+[Release and downloads](https://github.com/Vick-Tibia/vestara-downloads/releases/tag/client-0.6.3)
+
+### Added
+
+- Exaltation Forge rework, built around Vestara's rarity and star system:
+- Items fuse with others from the same family (melee weapons, fist weapons, distance weapons, wands, armour, helmets, legs, boots), not only identical copies.
+- An item's maximum tier equals its stars, so any forgeable item can now hold a tier, including custom Vestara gear.
+- The success chance shows its full breakdown. Rarity, tier, stars, a matching item and cores all count, between 5% and 90%.
+- Tier transfer works again and has a Full transfer option (higher cost, uses cores).
+- New forge window with Fuse, Transfer, Convert and History tabs, cost preview including your bank gold, a confirm step and a result panel. If something can't be done, the forge tells you why.
+- Onslaught, Ruse and Transcendence are 50% stronger. Convergence fusion has been removed.
+- New item tooltips: a cleaner layout with rarity-coloured outlines, stat tiles, colour-coded roll bars and turquoise MAX rolls. Legendary, Mythic and Divine items each get their own animated effect.
+- Hold Shift over a weapon or piece of armour to compare it with what you're wearing: per-stat arrows plus an "If you equip this" list of every gain and loss.
+- Spellbook rework: categories, search, and spells split into ready to cast, unlocks later and other vocations. A details panel shows words, cost, cooldowns and requirements. Drag a spell onto your action bar to bind it, or double-click to cast.
+- The spellbook shows only your own vocation's spells, plus a Mastery category with the spells your mastery tree has taught you (they disappear again if you reset the mastery).
+- Inspecting a player with a mastery capstone shows their specialisation title (for example Crusader or Fire Sorceress) instead of their vocation.
+
+### Changed
+
+- Knight mastery Twin Cut: every sword swing now has a 20% chance to strike twice, instead of every 4th swing on the same target. Procs can happen back to back.
+- Ricochet and Cleave no longer roll as item affixes. Existing ones are replaced with a fresh roll of the same quality. The mastery and set-bonus versions are unchanged.
+- Quest access: almost every quest-gated hunting ground and boss route is now open to everyone, including boss chains such as the Falcon and Cobra Bastions, Goshnar's Megalomania, Bakragore, the Pale Worm and the Asura Mirror. Quest rewards (outfits, addons, items, mounts, achievements, experience) still have to be earned.
+- Gnome city teleports, Feyrist shrines, the Elemental Spheres and the astral carvings no longer use up crystals, gems or pearls.
+- Every character has postman privileges (mailbox doors and the postman travel discount).
+- Several sidebar, chat and minimap buttons have a new look.
+
+### Fixed
+
+- Loot containers: swapping or re-equipping your main backpack no longer clears your loot and obtain container assignments for bags you still carry.
+- Loot filter: your skipped and accepted loot lists are saved right away, so a crash no longer loses them.
+- Item tooltips no longer get stuck on screen.
+- Hirelings: saved immediately (a crash can no longer lose one), recalling with a full store inbox no longer leaves an unrecallable hireling, and outfit and Cook fixes.
+- Hirelings can be bought from the store again; hireling renames and sex changes work.
+- Hero of Rathleton pipes and teleports, the Formorgar Mines hoist and the Farmine/Zao carpets let players through again.
+- Seeing a scorcher, chiller or simple jo staff no longer makes your map drift out of sync with the server.
+
+<!-- /vestara-client:0.6.3 -->
+
 <!-- vestara-client:0.6.2 -->
 <!-- source-archive-sha256:e3144fc3dfff6a920886014d13ff9d94df8be636ae4fd1a9f453cff5a7872dbd -->
 <!-- source-content-sha256-v1:95d2d3ef06b285068793a880852962c1a8780b8817e7addfd9643d10f8c8310e -->
