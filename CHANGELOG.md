@@ -4,6 +4,47 @@ Published player-client updates, newest version first. Dates are the UTC release
 
 <!-- vestara-client-history:v1; maintained by the publisher -->
 
+<!-- vestara-client:0.7.0 -->
+<!-- source-archive-sha256:5b4d27e2c91d37b64f360fc638927b1166eaac668c62c835e0296cd4b1a5f2c3 -->
+<!-- source-content-sha256-v1:b7ab2bbdf7413b8835f6d56ac96b9bbd3c2feb20e3479816089da33199039383 -->
+## 0.7.0 — 2026-10-29
+
+Client 0.7.0
+
+[Release and downloads](https://github.com/Vick-Tibia/vestara-downloads/releases/tag/client-0.7.0)
+
+### Added
+
+- A new immersive layout: the game fills the whole window and shows more of the world, with health, mana and experience in a bar at the bottom and the chat and action bars over the game. Switch between it and the classic layout with Ctrl+. or the layout button next to Options.
+- Edit layout (Ctrl+Shift+L): move and resize the health bar, chat, minimap, equipment, action bars and windows such as Skills or Battle List. Pieces snap neatly into place and never overlap. Save up to three layouts and set the size of the whole interface (handy on 4K screens).
+- More action bars: up to three on each side of the screen and three rows at the bottom. The immersive layout keeps its own bars, so your classic hotkeys never change.
+- Wider side panels in the classic layout: drag a panel's inner edge to make it up to twice as wide.
+- Party frames: every member's health and mana in one block, even when they are off screen, with right-click options to message, follow or pass leadership. Party invitations now pop up with Accept and Decline buttons.
+- Compact vitals: an optional portrait frame with your vocation icon, name, health, mana and experience.
+- Lock windows so they can't be dragged by accident.
+- A new login and character select by a quiet forest campfire. Your characters sit in one window beside a card for the one you choose, and characters with a capstone show its title (for example Crusader).
+- Soft interface sounds on the login and character screens. Turn them off with "Interface sounds" under the speaker in the top bar.
+
+### Changed
+
+- New login music, Fireside Ballad, played much more quietly. The speaker in the top bar now controls only the music, with a volume slider when you hover it.
+- Inspecting a player has a new look: their outfit, vocation or capstone icon, guild, equipment framed in each item's rarity colour and bars showing their skills at a glance. Hover any item for its full tooltip.
+- The launcher plays a calm piece of Vestara music instead of the campfire sounds.
+- New players start in the immersive layout. If you already play on Vestara, you stay in the classic layout until you switch.
+- Account creation now opens in the middle of the screen, and the login screen no longer shows a YouTube panel.
+- The server sends a wider area of the map, so you can see creatures further away. Monsters still notice and chase you from the same distance as before.
+
+### Fixed
+
+- Hotkeys and action bars: keys on slots 10 to 50 no longer clear other slots, Chat On and Chat Off use their own keys straight away, bars are no longer lost if the client closes while saving, and characters no longer share each other's bars.
+- Windows such as the Battle List no longer go missing at login, and opening a window in a full column no longer closes others.
+- Looking at a player shows their capstone title (for example "He is a Crusader.").
+- Attributes no longer get stuck on "Loading...".
+- Attacking a creature that is too far away now says "Too far away."
+- The chat tabs always open in the same order, and the game window no longer flashes white when you switch back to it.
+
+<!-- /vestara-client:0.7.0 -->
+
 <!-- vestara-client:0.6.3 -->
 <!-- source-archive-sha256:0177ef8cbae68ad9098cb5433569dbd057264ed256e5b63ba70baa3f06eb1f11 -->
 <!-- source-content-sha256-v1:1cd85fea335e54dcd480d3fb6e219b68c871b398ee4a1aa857ce79771271243d -->
