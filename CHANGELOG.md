@@ -4,6 +4,85 @@ Published player-client updates, newest version first. Dates are the UTC release
 
 <!-- vestara-client-history:v1; maintained by the publisher -->
 
+<!-- vestara-client:0.8.0 -->
+<!-- source-archive-sha256:51a69006284a866b0d75101a714dc78226e8b736c0152e520d07c6a7cf8ba1ab -->
+<!-- source-content-sha256-v1:4922d7e6fbaca2ca962faa7b1d84b765740c015b9c525907b362ffc255245767 -->
+## 0.8.0 — 2026-10-30
+
+Client update
+
+[Release and downloads](https://github.com/Vick-Tibia/vestara-downloads/releases/tag/client-0.8.0)
+
+### Added
+
+- Store: floors, carpets, furniture, potions, runes, exercise weapons, casks, kegs and boost tokens now have quick 1 / 5 / 10 / 25 buttons next to the amount box under the price, so you can buy several at once (up to 100) and see the total before you buy.
+- Players and monsters now show small icons when they are hasted, magic shielded, strengthened or in a combat stance like Blood Rage, Protector or Sharpshooter. You can turn them off with "Show buff icons over creatures" in Options \> Interface.
+
+### Changed
+
+- Affix stones (rerolls and the other modification stones) can now be used on backpacks, necklaces and rings.
+- Equipment you clean with a rust remover now rolls rarity and affixes, like equipment dropped by monsters.
+- Equipment bought from the gold token and silver token traders now rolls rarity and affixes, like equipment dropped by monsters.
+- On elemental weapons, a +attack affix now adds to the weapon's elemental damage instead of its physical attack (for example 5 attack + 48 fire with +12 attack becomes 5 attack + 60 fire).
+- Elite and mythic monsters now always give forge dust when killed, like influenced and fiendish monsters: elite as much as an influenced monster, mythic as much as a fiendish one.
+- Storm arrows (shatterstorm, firestorm, terrastorm, froststorm, thunderstorm) no longer hit an area around the target. Instead each shot ricochets to 2 more enemies, and their attack is raised: 45 for the elemental arrows, 40 for shatterstorm.
+- Crystalline arrows: attack lowered from 65 to 55.
+- Sorcerer fire masteries toned down: Kindle burns for 15/20/25% of the hit (was 20/30/40%), Pyromancy rank 2 stacks burns to 4 (was 5) and keeps cinders to 1 tile, and Combust adds 25% to detonated burns (was 50%).
+- Knight masteries reworked. Your Knight mastery points have been refunded, so open the Masteries window to spend them again. The tree now has three paths (Blood, Tempest, Eldritch), each with its own way to hit groups of monsters, plus the Iron support column.
+- Knight Blood path: bleeds burst onto nearby monsters when a bleeding monster dies (Blood Burst), Spinning Assault leaves a pool of blood, and Blood Frenzy now clearly shows when it starts and ends, heals you while it runs and ends in a bigger explosion.
+- Knight Tempest path: Battle Rhythm gives Momentum, attack speed that stacks with every kill and lasts 12 seconds after your last one. New Gathering Storm builds up to a wind burst, new Gale Slash (Exori Min) leaves a whirlwind that drags monsters in, and Windfury's extra swings now also cut the monsters beside you.
+- Knight Eldritch path: kills give you Souls. Soul Harvest turns them into a Soul Nova of death damage that leaves blighted ground (purple smoke) hurting monsters on it for 3 seconds, new Reaping Sweep (Exori) hooks monsters towards you, and Withering Edge adds death damage.
+- Knight Eldritch capstone: the new Eldritch Knight replaces Oathkeeper: your swings reap a crescent of death damage, further with a two-handed weapon, and at 10 Souls you become the Harbinger, taking the form of a void-violet Grim Reaper that moves 10% faster and has 5% more health until it ends. Type !harbinger to switch its automatic start on or off. Eldritch Knights show their own title and icon when inspected and in party frames.
+- Knight Iron column: Hold the Line makes you take less damage for every monster next to you, Retaliation strikes back at everything around you, Seismic Wave adds an Aftershock where it pulls monsters, and Shield Bounce now works without a shield and makes you tougher for every monster it hits.
+- Knight weapon specialisations work with one- and two-handed weapons alike (one-handed a bit weaker) and each has its own way to hit groups. Swords: Twin Cut can chain and slashes nearby monsters. Axes: two-handed axes swing slower but harder, and Devastate can finish off weakened monsters. Clubs: every few hits a shockwave staggers the monsters around your target.
+- Knight: Lacerate, Battle Rhythm and Cleave are a little weaker. Martial Focus, Berserker, Shield Wall, Rampage, Unbroken, Hemorrhage, Guarded Stance and Thorned Bulwark are gone, and the Knight's mastery spells now cost 15% less mana.
+- Boss loot: the rare items from bosses with a reward chest drop much more often. A boss's rarest pieces (1% or less) now drop up to 10 times as often, so a solo kill gives one in roughly 1 of 10 kills instead of 1 in several hundred. Common boss loot is unchanged.
+- The Bestiary creature page now shows two separate bars: Bestiary progress (stages and charm points) and XP Rewards (your next experience reward and your current XP bonus for that creature), each with a tooltip explaining it.
+- Side panels now only change width while you hold Ctrl+Alt and drag their edge (Ctrl+Alt+double-click for the standard width), so they aren't resized by accident while you move bags and windows around. Hold Shift as well for any width.
+
+### Fixed
+
+- Prey bonuses now run out after their hunting time again, instead of lasting forever.
+- You can no longer get stuck unable to move any items until you relog. Only the item open in the imbuement window (and the bag holding it) is locked while it is open.
+- The stash now works whenever you stand at a depot, including right after logging in there or arriving by teleport.
+- Paladin Sanctified Ground no longer stops you from looting bodies lying in it. The holy (or unholy) ground now shows as a pulsing effect instead.
+- Sell All at an NPC now sells everything in one click instead of only the first item.
+- An item's tooltip now shows a new or removed imbuement straight away, instead of only after relogging.
+- Pressing Enter or Escape on the death window no longer risks freezing the client.
+- Opening big item categories in the Cyclopedia (such as all weapons) no longer freezes the game.
+- Client settings such as smart walk and your control scheme are now kept if the client crashes or you x-log.
+- Moved or resized windows (skills, battle list and others) now keep their place after a client crash or x-log.
+- Locking a window works again: locked windows and bags can no longer be moved or resized by accident, and stay locked after you log in again.
+- Creatures you track in the bestiary or bosstiary tracker no longer disappear from the list at random.
+- The global skill boost now shows its time left next to the other global boosts.
+- Global XP, loot, skill and elite boosts are no longer lost when the server restarts.
+- Party frames show each member's vocation icon again (a druid shows the leaf); their capstone still appears as the title under their name.
+- Elemental weapons show their elemental damage in the item tooltip again (for example ATTACK 5 and FIRE 48).
+- Item tooltips no longer call food, tools, potions and other ordinary items a "Weapon".
+- Items linked in chat now show the same new-style tooltip as items in your backpack.
+- Items you link in a private message now show their name in your own copy of the message, instead of "\[Item\]".
+- Legendary items in the loot channel are shown in legendary gold, the same colour as their tooltip.
+- The battle list no longer keeps showing monsters that are already gone while sorted by distance.
+- Quest access announced in 0.6.3 now really works: quest-gated hunting grounds and boss routes open for your character the next time you log in. Quest rewards still have to be earned.
+- Token traders show your token balance as tokens instead of gold.
+- Pyromancy cinders no longer fly through walls or chain from kill to kill across a whole pack. They reach at most 4 nearby enemies in sight.
+- Spinning Assault's bleeds no longer stop after the first tick when you don't have Lacerate.
+- The classic layout shows the wider game view again (17 by 13 squares) instead of shrinking back to the old Tibia view after logging in. Monsters, spells and throws still use the classic range.
+- The minimap no longer snaps back to your character during combat after you've moved it. It only recentres when you walk to another square.
+- Runes can now really be put in a Multi-Action slot: the rune is added and the button keeps working. Before, adding a rune broke the whole Multi-Action button, and buttons broken this way work again after the update.
+- The vocation icon at the end of the health bar (immersive layout) no longer turns into the last item you looked at.
+- The rest of the interface no longer greys out while the supply stash is open, and the stash no longer pops back up after you close it right after withdrawing.
+- The walking outfit at the top left of the character inspect window is a little smaller, so large outfits no longer stick out of their frame.
+- The imbuement window now tells you why an imbuement couldn't be applied (for example missing items), instead of seemingly doing nothing.
+- Bags that open again when you log in now come back in the same column, order and size you left them in, instead of wherever there was room.
+- Windows you leave next to a side panel now move aside when you make the panel wider, instead of the panel and its windows ending up underneath them.
+- Switching between your saved layouts (1-3) now also moves your windows (Skills, Battle List, bags...) to where you had them in that layout, and no longer stops half-way when the layouts have a different number of action bars.
+- Monsters no longer respawn inside walls or rocks in hunting grounds whose spawn points were placed on them.
+- If the game freezes and you close it, the launcher no longer refuses to start it again until you restart your PC: it offers to close the stuck game and start a new one.
+- Dying and getting reconnected right away is safer: the death window no longer races the automatic reconnect, and the client is protected against the kind of endless loop that could freeze it after death.
+
+<!-- /vestara-client:0.8.0 -->
+
 <!-- vestara-client:0.7.0 -->
 <!-- source-archive-sha256:5b4d27e2c91d37b64f360fc638927b1166eaac668c62c835e0296cd4b1a5f2c3 -->
 <!-- source-content-sha256-v1:b7ab2bbdf7413b8835f6d56ac96b9bbd3c2feb20e3479816089da33199039383 -->
