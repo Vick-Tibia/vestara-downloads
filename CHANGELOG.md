@@ -4,6 +4,39 @@ Published player-client updates, newest version first. Dates are the UTC release
 
 <!-- vestara-client-history:v1; maintained by the publisher -->
 
+<!-- vestara-client:0.8.1 -->
+<!-- source-archive-sha256:ee32951966c10148933ce72429bb81c7cc4d29203e9d4a22bf111c8f6dc3bee4 -->
+<!-- source-content-sha256-v1:590da2764ed3aec9410d054e901e4ea9ca0b2fba55fefca0ee933fe952f9dfbe -->
+## 0.8.1 — 2026-10-30
+
+Client update
+
+[Release and downloads](https://github.com/Vick-Tibia/vestara-downloads/releases/tag/client-0.8.1)
+
+### Added
+
+- Blood Frenzy: Hemorrhage. Your melee hits deal 3/4/5% more for every bleed stack you have on the target. While frenzied your outfit turns crimson, Bloodlust pulses as it fills, and Rupture is easier to see.
+- Eldritch Knight: the Final Harvest now has its own icon while the Harbinger walks, so your Souls count no longer seems to reset.
+
+### Changed
+
+- Knight masteries have been rebalanced. All Knight mastery points are refunded once: open the Masteries window to spend them again.
+- Battle arts (Blood Burst, Cleave, Soul Harvest): master one, and take a second at rank 1 if you like. You can no longer take all three.
+- Mastery area damage is smaller across the board (Cleave, Blood Burst, Soul Nova, Bloodletter, Gathering Storm burst), so packs no longer melt instantly. Each capstone now makes its own path's area damage stronger: Blood Frenzy +10%, Windfury +25%, Eldritch Knight +40%.
+- Capstones cost 4/7/10 points instead of 5/9/13, and each has a clear job: Blood Frenzy for bosses, Windfury for small groups, Eldritch Knight for big pulls.
+- Twin Cut goes off more often with smaller cuts, and Gathering Storm stacks make cuts more likely. Twin Cut and Windfury never chain at the same time, and extra swings no longer sweep Cleave (mastery or gear) unless you have Windfury.
+- Windfury: fewer but heavier swings (up to 120% damage), at most 6 per chain, with its own whirlwind animation and a bigger Eye of the Gale.
+- Eldritch Knight: Reaper's Arc drains life and heals you for a quarter of it. Reaper's Toll and Withering Edge now poison, and Blight is poison on the ground. Soul Nova and Final Harvest stay death damage.
+- Eldritch Knight: Soul Nova no longer spends your Souls, so only the Harbinger does. Reaping Sweep now hits harder for every Soul you hold instead of spending them.
+- Gale Slash is now a whirlwind around you (every tile next to you, the ring beyond at half damage), and its vortex follows you and pulls monsters in towards you.
+
+### Fixed
+
+- Immersive layout: the top and bottom rows of the map are no longer cut off, so you see as much of the map vertically as in the classic layout (and more to the sides).
+- Eldritch Knight: Reaping Sweep, Reaper's Arc and the Harbinger no longer leave slash animations on the floor that never go away and pile up the longer you fight.
+
+<!-- /vestara-client:0.8.1 -->
+
 <!-- vestara-client:0.8.0 -->
 <!-- source-archive-sha256:51a69006284a866b0d75101a714dc78226e8b736c0152e520d07c6a7cf8ba1ab -->
 <!-- source-content-sha256-v1:4922d7e6fbaca2ca962faa7b1d84b765740c015b9c525907b362ffc255245767 -->
