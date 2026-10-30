@@ -4,6 +4,34 @@ Published player-client updates, newest version first. Dates are the UTC release
 
 <!-- vestara-client-history:v1; maintained by the publisher -->
 
+<!-- vestara-client:0.8.2 -->
+<!-- source-archive-sha256:a85c3dc5fce150b89eaadcc9af037f098b99c6b0fb489f5f6065a68178a57dcc -->
+<!-- source-content-sha256-v1:6c7759e97e0b9e212e4da075de084ee1576d6ebf80729fccc55551bc06926562 -->
+## 0.8.2 — 2026-10-30
+
+Client update
+
+[Release and downloads](https://github.com/Vick-Tibia/vestara-downloads/releases/tag/client-0.8.2)
+
+### Changed
+
+- Unfortunately Vince, definitely not Dave, massively broke the Knight masteries, so I have had to undo the damage he did to save you all from One Punch Knights one-shotting the very universe as we know it.
+- Knight masteries: a big power pass that brings Knights in line with the other vocations. The masteries now add to the Elite Knight's own spells and swings instead of burying them. There are fewer and smaller area effects, and extra swings no longer set off area effects. Your Knight mastery points have been refunded.
+- Knight capstones (Blood Frenzy, Windfury, Eldritch Knight) now cost 5/9/13 points, the same as the other vocations' capstones.
+- Twin Cut: at most two cuts (60%, then 45% with a two-handed sword), and only on your target. Crossing Cuts, Flourish and the Gathering Storm link are gone.
+- Windfury: shorter chains (up to 4 swings) on your target, plus +4/7/10% attack speed. Every chain now ends in a Gale Burst that hits the enemies around you, and it grows with every swing in the chain. At rank 3, a full chain becomes the Eye of the Gale for an even bigger burst. Gale Edge and Cyclone are gone.
+- Gale Slash is now a single whirlwind around you with no vortex or pull. Reaping Sweep no longer hooks enemies. Exori Mas (Seismic Wave) is the Knight's gathering spell.
+- Eldritch Knight: smaller Reaper's Arc and Toll. Kills give 1 Soul, plus 1 for every 5th hit. The Harbinger lasts 5/6/7 s and reaps at 40%.
+- Blood Frenzy, Blood Burst, Cleave, Soul Harvest, Gathering Storm, Retaliation, Executioner, Earthshatter, Bloodletter, Lacerate and Spinning Assault have lower values. Soul Nova and the Storm burst now hit only the tiles around you. Open the Masteries window to see each node's new numbers.
+
+### Fixed
+
+- Knight: Gathering Storm, Windfury and Twin Cut no longer pile area hits and animations on top of each other in packs.
+- Mastery tooltips now wrap long text instead of running off the screen.
+- Immersive layout: no more black bars at the sides of a maximised widescreen window. The map now fills the window edge to edge and still shows all 13 rows.
+
+<!-- /vestara-client:0.8.2 -->
+
 <!-- vestara-client:0.8.1 -->
 <!-- source-archive-sha256:ee32951966c10148933ce72429bb81c7cc4d29203e9d4a22bf111c8f6dc3bee4 -->
 <!-- source-content-sha256-v1:590da2764ed3aec9410d054e901e4ea9ca0b2fba55fefca0ee933fe952f9dfbe -->
