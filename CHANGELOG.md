@@ -4,6 +4,36 @@ Published player-client updates, newest version first. Dates are the UTC release
 
 <!-- vestara-client-history:v1; maintained by the publisher -->
 
+<!-- vestara-client:0.8.3 -->
+<!-- source-archive-sha256:1b93348be514774c567ba15d682110f62c332cb6bd7ef3d36798e1c1565c255d -->
+<!-- source-content-sha256-v1:8376ba9a17fffe872e385099418c0ddce7287233aae5bd561834b53e317cf260 -->
+## 0.8.3 — 2026-10-31
+
+Client update
+
+[Release and downloads](https://github.com/Vick-Tibia/vestara-downloads/releases/tag/client-0.8.3)
+
+### Changed
+
+- Eldritch Knight: every melee swing and every kill gives a Soul. At 10 Souls you become the Harbinger, a Grim Reaper whose swings reap every enemy around you. The form also gives more damage, health, movement speed and life leech for 8/10/12 seconds. Kills during the form keep it going and summon the spinning Reaper on each victim.
+- Soul Harvest: every 4th melee swing now releases a Soul Nova of death damage on every enemy next to you. You no longer need kills or Souls to trigger it.
+- Cleave: hits the 2, then 4 tiles beside your target, then every tile around you at rank 3, all for 15% of your swing. The Masteries window shows the tiles again, and Cleave no longer hits in an L shape.
+- Bloodletter: your attack spells now make every enemy they hit bleed, as the description says.
+- Blood Frenzy is simpler: bleeds +20/30/40%, and the crimson Frenzy now gives +10/15/20% attack speed while it lasts, then ends in Rupture. Hemorrhage and the other small bonuses are gone.
+- Blood Burst: every 3rd hit on a target bleeding from you bursts its blood onto the enemies around it. It no longer needs a bleeding enemy to die.
+- Twin Cut: each sword swing has a 25% chance (33% at rank 2) to strike your target again, at 60% with a two-handed sword or 45% one-handed. It no longer chains.
+- Earthshatter: Concussion now builds on you with every club hit, whatever you hit, so it isn't lost when a monster dies before the Shatter.
+- Executioner: one-handed axes now execute and splash at 60% of the two-handed values, instead of higher than rank 1 two-handed.
+- Withering Edge: your hits Wither the target, so it deals less damage and takes more damage from you. No more poison.
+- Reaping Sweep: Exori's dark crescent hits 10% harder and heals you for part of the damage.
+- All Knight mastery points have been refunded so you can try the new builds.
+
+### Fixed
+
+- Knight: fixed a bug where Knight area effects could set each other off over and over in a big pack and stall or crash the server.
+
+<!-- /vestara-client:0.8.3 -->
+
 <!-- vestara-client:0.8.2 -->
 <!-- source-archive-sha256:a85c3dc5fce150b89eaadcc9af037f098b99c6b0fb489f5f6065a68178a57dcc -->
 <!-- source-content-sha256-v1:6c7759e97e0b9e212e4da075de084ee1576d6ebf80729fccc55551bc06926562 -->
