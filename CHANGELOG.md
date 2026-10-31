@@ -4,6 +4,52 @@ Published player-client updates, newest version first. Dates are the UTC release
 
 <!-- vestara-client-history:v1; maintained by the publisher -->
 
+<!-- vestara-client:0.9.0 -->
+<!-- source-archive-sha256:835dac7f40919c9372de3ac16aef0f66c6da4048a997972b645e22faffd871e7 -->
+<!-- source-content-sha256-v1:66daa3917fd46022d1fcfc44f890edad7989ea50abaf7d27e41baa00719f01c9 -->
+## 0.9.0 — 2026-10-31
+
+Client update
+
+[Release and downloads](https://github.com/Vick-Tibia/vestara-downloads/releases/tag/client-0.9.0)
+
+### Added
+
+- Discord now shows "Playing Vestara" on your profile while the game is open, with your character's name and level once you log in, and what you're hunting or which town you're in. This needs the Discord desktop app, with activity sharing turned on in Discord's settings.
+- The UI size setting (Edit layout and Options) can now make the interface smaller, down to 0.8x, for 1080p screens.
+- New Sorcerer spell Meteor Storm (exori mas flam) for the Firewalker capstone: meteors rain down on your target for 3 seconds and set enemies burning.
+- Oskayaat and the Murky Caverns beneath it are now full of monsters: werepanthers, weretigers, werecrocodiles and more.
+
+### Changed
+
+- The affix stones now each have their own colour so you can tell them apart at a glance: Resonance Gems are teal, the Affine Exchange Gem is pink, the Alloy Reforge Gem glows orange and the Rarity Ascension Sigil is gold.
+- Divine items roll their bonuses a little higher, so a divine roll is never below a mythic one. Divine items you already own are raised to match, keeping how good each roll was.
+- Knight masteries reworked to match the other vocations: Row II is now Open Wounds (more damage to bleeding enemies), Cleave, Withering Edge and Retaliation, and you can take all of them. Blood Burst and Soul Harvest moved down next to their capstones, and Bloodletter is gone. The capstones are unchanged. Your Knight mastery points have been refunded, so open the Masteries window to spend them again.
+- Small interface text has a little more space between letters and numbers, so it is easier to read.
+- Sorcerer burns now stack up to 6 times (8 with Pyromancy) instead of replacing each other; stronger fire spells add more stacks, and every new stack keeps the burn going.
+- Firewalker makes your burns stronger, so standing in your embers hurts more.
+- Tempest now crashes two bigger lightning bolts down every half second, with a heavier storm around you.
+- Grimvale's full moon werecreatures now roam there every day.
+- Deeper Banuta is open to everyone: the Blind Prophet takes you to Banuta and the deepest catacomb no longer needs the amphoras broken.
+- Buddel always sails where you ask, so Tyrsung and the other Svargrond islands are always reachable.
+- The Asura Mirror to the true asuras only needs level 250.
+- Hairycles no longer gives the Shaman outfit.
+
+### Fixed
+
+- Moonsilver set effects such as Moonfall's starfall and Falling Star now actually damage the monsters they land on.
+- Very long item tooltips, such as divine items with 7 bonuses, now fit on screen by spreading into two columns.
+- Eldritch Knight: dying as the Harbinger no longer carries the form or your Souls over into your next login.
+- Boss reward chest equipment now rolls a rarity (uncommon to mythic) like gear from normal monsters, with the boss bonus to rare odds.
+- Fixed a server crash that could happen while monsters picked targets during busy fights.
+- Fixed some quest chests (In Service of Yalahar, Royal Rescue and others) giving an error instead of their reward.
+- Buff icons over characters no longer cover the skull, guild and summon icons.
+- Large numbers in the Skills window (experience, hit points and the like) are no longer cut off.
+- The Skills window can now be stretched to the full height of a side panel.
+- Sealed doors that blocked hunting grounds now open: the Kilmaresh ogre cave and the catacombs below it, the Vengoth castle rooms, and several Yalahar side rooms.
+
+<!-- /vestara-client:0.9.0 -->
+
 <!-- vestara-client:0.8.3 -->
 <!-- source-archive-sha256:1b93348be514774c567ba15d682110f62c332cb6bd7ef3d36798e1c1565c255d -->
 <!-- source-content-sha256-v1:8376ba9a17fffe872e385099418c0ddce7287233aae5bd561834b53e317cf260 -->
