@@ -4,6 +4,46 @@ Published player-client updates, newest version first. Dates are the UTC release
 
 <!-- vestara-client-history:v1; maintained by the publisher -->
 
+<!-- vestara-client:0.10.0 -->
+<!-- source-archive-sha256:a0a80be10f395beffd2d944d865b3914cd2c449832c77f6ff78c695d1d907c52 -->
+<!-- source-content-sha256-v1:c1c98c1e963e6d52b270c002ffd36031333c9fa1d85c2c960eb6b9c83479c084 -->
+## 0.10.0 — 2026-10-31
+
+Client update
+
+[Release and downloads](https://github.com/Vick-Tibia/vestara-downloads/releases/tag/client-0.10.0)
+
+### Added
+
+- Knight masteries: a new Guardian path. Kinetic Armor stores part of the damage you take while you guard with Protector and a shield, then releases it in a wave around you. The Unbreakable capstone makes you much harder to kill for a few seconds and lets your swings taunt.
+- Monks now have a mastery tree with three paths built on the Virtues: Tiger (Justice) for fast clawing attacks that make enemies bleed, Water (Sustain) for healing and shielding your party, and Dragon (Harmony) for strong spenders and area bursts. A Balance column adds dodging, a more forgiving Serene and stronger heals.
+- Monk capstones: Tiger Spirit (Tiger's Fury: faster attacks, and claws that hit every enemy next to you), Spirit of Water (stronger party heals and shields; Sustain counts as Serene in a party) and Dragon Ascendant (a spirit dragon strikes your target and every enemy around you). Each gives an inspect title: White Tiger, Tidecaller or Grandmaster.
+- Monk spell arts: Double Jab becomes Tiger Rake (the target bleeds), Mystic Repulse becomes Tidal Palm (shields you and allies next to you) and Devastating Knockout becomes Dragon Fist (roots the target at 5 Harmony, not bosses). Spell arts cost 15% less mana.
+- The stack display now shows Monk Rend and Tiger Spirit's Ferocity.
+
+### Changed
+
+- Knight masteries have been reworked into Blood, Tempest and Guardian paths plus the Iron column. Eldritch Knight and the weapon-specific specialisations are gone. All Knight mastery points have been refunded.
+- Knight masteries: Row II is now a choice of one technique (Blood Burst, Cleave or Kinetic Armor), and Row III a choice of one fighting style (Relentless, Precise or Steadfast).
+- Cleave now hits a U shape in front of you: harder beside your target, lighter beside you, and never behind you.
+- Gale Slash is now a double slash: in front of you, then behind you a second later.
+- Spinning Assault is now a single spin that makes everything it hits bleed.
+- Gathering Storm no longer releases a burst. A full Storm starts Windfury instead.
+- Retaliation now strikes back at your target only.
+- Blood Burst now goes off every 2nd hit on a bleeding target and hits harder.
+- The Protector stance now lowers your damage by 5% instead of 15%.
+- The old Monk masteries (Attack Speed, Life Leech, Reflection, Heal Echo) are replaced by the new Monk tree. All Monk mastery points have been refunded.
+- Monk weapons now roll the stronger two-handed weapon bonuses (attack and critical), since Monks can't use a shield. This applies to newly rolled bonuses.
+
+### Fixed
+
+- Monk: Spiritual Outburst's second hit at 5 Harmony now keeps the Harmony bonus.
+- Monk: a Spell Echo of a Harmony spender now keeps the Harmony of the original cast.
+- Monk: basic attacks now trigger set effects meant for every vocation (for example the Pirate set's Cutlass Trick).
+- The Ethereal Monk set now gives +4% healing received, and the Orange Plasma Resonance set +2% basic fist damage, as described.
+
+<!-- /vestara-client:0.10.0 -->
+
 <!-- vestara-client:0.9.0 -->
 <!-- source-archive-sha256:835dac7f40919c9372de3ac16aef0f66c6da4048a997972b645e22faffd871e7 -->
 <!-- source-content-sha256-v1:66daa3917fd46022d1fcfc44f890edad7989ea50abaf7d27e41baa00719f01c9 -->
