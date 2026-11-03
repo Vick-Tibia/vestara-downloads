@@ -4,6 +4,63 @@ Published player-client updates, newest version first. Dates are the UTC release
 
 <!-- vestara-client-history:v1; maintained by the publisher -->
 
+<!-- vestara-client:0.11.0 -->
+<!-- source-archive-sha256:021cbdcfefef94a05820ab9382fc07b395292f15cd003bf1b6276677069f18af -->
+<!-- source-content-sha256-v1:5caf3bead7dffc50bcfd6213de073921b4713cc0798a229fd9243d36022a95b3 -->
+## 0.11.0 — 2026-11-03
+
+Client update
+
+[Release and downloads](https://github.com/Vick-Tibia/vestara-downloads/releases/tag/client-0.11.0)
+
+### Added
+
+- Right-click a monster on the map or in the battle list to add it to, or remove it from, your Bestiary Tracker.
+- Weekend events: every weekend, from Friday's server save until Monday's, one bonus is active: +50% experience, double bestiary kills, +50% loot or 50% faster monster respawns. It is never the same bonus two weekends in a row.
+- The spellbook now explains what each spell does when you select it or hover over it.
+- Tutorial tips: new characters get short tips as they play, first the Tibia basics in Rookgaard, then Vestara's own systems on the mainland, including a card about your vocation's mastery paths. Tips point at the button they talk about, never block play and can be skipped.
+- Options \> Interface \> Tutorial turns tips on or off for each character and replays them. Characters made before this update start with tips off, and a one-time card shows how to turn them on.
+- Achievements: a new Achievements window (Progression buttons) with 130 achievements from Easy to Grandmaster, covering hunting, bosses, raids, levels and skills, treasure, item modification, fishing and a few secret ones. Each one gives achievement points, and unlocking one plays a pixel-art pop-up with a medal and a Tibia firework (Grandmaster, milestones and server firsts get a little extra).
+- Achievement reward track: reaching point milestones unlocks small permanent bonuses (up to +5% hunting experience, +15 movement speed and +3% skill training), five new wings for the outfit window and six badges, from Bronze Leaf to Grandmaster Sigil.
+- Kills you made before achievements existed count toward kill achievements for creatures with a bestiary entry, and your level, skills and bank balance count straight away.
+- Feats of Strength: Beta Pioneer for everyone playing during the beta, and server-first feats for the first character to reach level 200 and 500, the first party to beat Ironjaw, and the first mythic and divine finds.
+- Inspecting another player now shows their achievement points and badge.
+
+### Changed
+
+- Soul War "Bag You Desire" now drops more often, with improved rates across regular monsters and bosses.
+- Bag You Desire and Bag You Covet now use stronger endgame rarity weighting (8% Legendary, 3% Mythic).
+- Stellar Moonsilver weapons now have a base +12% critical hit chance.
+- Stellar Moonsilver weapons now include light vocation spell bonuses (for example Brutal Strike, Ethereal Spear, Greater Tiger Clash, Ultimate Energy Strike and Ultimate Terra Strike).
+- Stellar Moonsilver caster weapons gained extra elemental magic levels to strengthen their spell scaling.
+- Moonsilver helmets now grant 7% resistance to all major damage types (physical, fire, energy, earth, ice, holy and death).
+- Moonsilver helmets also received stronger vocation-focused flat stats.
+- Critical hits now deal at most 1.8x damage (was 2.5x). Critical chance is still capped at 70%.
+- Kinetic Armor now stores the damage of each hit as it comes in, before your armour and Guardian reductions lower it, so its waves hit harder. Each wave now clearly shows the whole star it hits: a ground shake on every tile, including the tips two tiles out north, east, south and west.
+- Elite monsters now count as 2 kills towards the Bestiary, and Mythic monsters as 5.
+- Empty potion flasks now vanish after drinking instead of filling your backpack. Type !flask off if you want to keep them (and !flask on to stop again).
+- NPC shops now let you buy stackable items in large amounts at once (for example a full stack of 1,000), instead of at most 100 per purchase.
+- Bag You Covet drops as often as Bag You Desire: 0.5% from Murcion, Chagorz, Vemiath and Ichgahal (the first three didn't drop it before) and 0.9% from Bakragore.
+
+### Fixed
+
+- Bag You Covet now keeps rerolling until it can apply a valid rarity-affix result, instead of failing the reward.
+- Paladin Smites no longer land a second critical hit on top of an attack that already crit, so they stop hitting far harder than intended.
+- Huntmaster's Arrow Volley now follows your target: every wave lands where the target is at that moment, instead of on the spot where it stood when you cast.
+- Sets with a shield piece now count it as worn while you use a two-handed weapon from that set, so two-handed players can complete them.
+- The Arcanist and Duskcloak store outfits now show the right look for male and female characters (they were swapped). If you own one, pick it again in the Outfit window.
+- Spells, mastery effects and spell echoes no longer hit creatures on other floors or behind walls. Scorched Earth and Firewalker embers now only burn enemies standing on the burning ground.
+- Backpacks and other windows in the side columns stay where you put them after logging out and back in, or restarting the game, in both the classic and immersive layouts.
+- Moving back and forth in the Bestiary keeps you on the right page: going back from a creature returns to the list page you came from, and late or empty replies no longer replace what you are looking at.
+- Charm point totals and charm prices now update straight away after unlocking, upgrading or clearing a charm, and the confirmation shows the real cost.
+- Locked doors in Cobra Bastion, the Falcon Bastion castle, Bounac and the true asura area are now unlocked for everyone.
+- Holding Shift over a backpack now compares it with the backpack you wear, like other gear. Necklaces and rings already compare.
+- Looking at an item on the ground (Shift+click) now also shows its tooltip, like items in your backpack.
+- Affix gems and other items without stats now show what they do in their tooltip.
+- Fixed the interface sometimes staying greyed out until you restarted the client.
+
+<!-- /vestara-client:0.11.0 -->
+
 <!-- vestara-client:0.10.0 -->
 <!-- source-archive-sha256:a0a80be10f395beffd2d944d865b3914cd2c449832c77f6ff78c695d1d907c52 -->
 <!-- source-content-sha256-v1:c1c98c1e963e6d52b270c002ffd36031333c9fa1d85c2c960eb6b9c83479c084 -->
