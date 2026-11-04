@@ -4,6 +4,38 @@ Published player-client updates, newest version first. Dates are the UTC release
 
 <!-- vestara-client-history:v1; maintained by the publisher -->
 
+<!-- vestara-client:0.12.0 -->
+<!-- source-archive-sha256:1ce67149058bf73c6774f2e9621da1569ca1c97a1d77af423612fae9a9a84b3c -->
+<!-- source-content-sha256-v1:a6171c35599c31a5717a869fe16bfc7a2c629bedb7485b866696c87640ec8e23 -->
+## 0.12.0 — 2026-11-04
+
+Client update
+
+[Release and downloads](https://github.com/Vick-Tibia/vestara-downloads/releases/tag/client-0.12.0)
+
+### Added
+
+- Quick loot can now loot items from your skipped list anyway when they drop at a rarity you choose, and an 'Always loot rarity' setting loots anything at or above that rarity, whatever your loot list says.
+- Hovering an item or spell on the action bar now shows its tooltip: item details, or the spell's words, level, mana, cooldown and what it does.
+- Spells can now be dragged from the spellbook onto multi-action buttons and onto hotkeys in the Hotkeys window.
+- The character list now shows the level a character logged out with, plus how many levels it gained since you logged in.
+
+### Changed
+
+- Monks can now take the Knight's place in old quests built for one player of each of the four classic vocations: the Desert Dungeon, the Elemental Spheres, the Pits of Inferno fire paths and the Kilmaresh vocation teleports.
+- The server now saves and restarts every day at 10:00 (Central European time), with a warning every minute from five minutes before.
+- Rare drops that have no rarity of their own, like the Bag You Desire, Bag You Covet, boss dolls and figurines and mount items, now show in the mythic loot colour so they stand out.
+- Dragging an action bar slot onto another slot now swaps the two (also between bars, and multi-action buttons as a whole) instead of overwriting it. Hotkeys stay on their slots.
+
+### Fixed
+
+- Some boss and monster attacks used to skip Monks entirely. The special attacks of Gaz'haragoth, Tenebris, Eruption of Destruction and Prince Drazzak now hit Monks too, and the skill-draining attacks of Lisa and Walkers now lower a Monk's fist fighting and shielding.
+- Mawhawk's last-stand explosion ("Better flee now.") now actually hurts the players who stay close, as it should. Before, it never damaged anyone.
+- The dead bureaucrats in the Pits of Inferno no longer stop talking when a Monk tells them their vocation.
+- Opening the Achievements window no longer crashes the game.
+
+<!-- /vestara-client:0.12.0 -->
+
 <!-- vestara-client:0.11.0 -->
 <!-- source-archive-sha256:021cbdcfefef94a05820ab9382fc07b395292f15cd003bf1b6276677069f18af -->
 <!-- source-content-sha256-v1:5caf3bead7dffc50bcfd6213de073921b4713cc0798a229fd9243d36022a95b3 -->
