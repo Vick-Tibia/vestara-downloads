@@ -4,6 +4,48 @@ Published player-client updates, newest version first. Dates are the UTC release
 
 <!-- vestara-client-history:v1; maintained by the publisher -->
 
+<!-- vestara-client:0.13.0 -->
+<!-- source-archive-sha256:fac31ae079fe659a0700ac1d8bf8f7815be7f76b135913a0f9d3396a0713b57f -->
+<!-- source-content-sha256-v1:cccd24c98d5cbcd35a35a7b3d4f895ee5f567177018a440715fe883616b5480c -->
+## 0.13.0 — 2026-11-05
+
+Client update
+
+[Release and downloads](https://github.com/Vick-Tibia/vestara-downloads/releases/tag/client-0.13.0)
+
+### Added
+
+- A new vocation: the \*\*Reaver\*\*, chosen at the Oracle and promoted to \*\*Harbinger\*\*. Reavers fight up close with a sword (one-handed with a shield, or two-handed), mixing steel with dark magic: every swing and kill gathers Souls to spend on heavy strikes, and Souls can raise a stitched abomination that fights beside you.
+- Once promoted, a Reaver picks one of three stances that changes its element: Grave (death and life leech), Rime (ice that slows monsters) or Blight (earth poison that spreads); picking a stance locks the other two for 15 seconds. From level 51 the Reaver has its own mastery tree, with the Soulreaper, Frostwarden and Blightbringer capstones.
+- Reavers use Knight swords, shields, armour and jewellery and the gear Knights and Paladins share, and can roll their death, ice, earth and magic bonuses on swords. They have their own spell icons, their own Wheel of Destiny (the Knight's layout with Reaver spells, the Reaper's Toll and Avatar of Souls revelations, and the Knight's guardian gems), a "Hide reavers" button in the battle list and a familiar wrapped in soul wisps. The Knight spell trainers teach Reaver spells.
+- Reavers get their own endgame gear: "harrowed" versions of the soulcutter, soulshredder, soulwalkers and soulbastion, the sanguine blade, razor (both also grand) and legs, and the moonsilver battle visor, epee and claymore (also stellar). They're black and grey with a green glow, only Reavers can wear them, and their spell bonuses name Reaver spells (Soul Harvest, Soul Rend, Avatar of Souls).
+- The Knight versions of these pieces are Knight-only from now on; any a Reaver already owns turns into the Reaver version on login, keeping its bonuses and upgrades. Wherever the Knight piece drops, the Reaver version takes half of its chance.
+- The harrowed pieces have their own set bonuses: \*\*Harrowed Soulbound\*\* (2 pieces: dropping below 35% health spends all your Souls on a ward worth 4% of your maximum health plus 1.5% per Soul), \*\*Harrowed Sanguine\*\* (2 pieces: sword hits can rend, giving an extra Soul and a wound in your stance's element) and \*\*Harrowed Moonsilver\*\* (2 pieces: your abomination deals 25% more damage, its hits can crack a line through the ground in your stance's element, and kills near it make it grow).
+- Weather now changes across the world: sunny days, drizzle, rain and the occasional thunderstorm in the cities, heat haze and sandstorms in the deserts, snow and blizzards where snow lies on the ground, and lasting fog over the Plains of Havoc, the Ghostlands and the swamps. Rain and snow stay outside, never inside buildings. You can switch weather off completely, turn the effects down, switch off lightning flashes and set the weather volume under Options \> Graphics \> Effects.
+- A new coin: the \*\*crystal ingot\*\*, worth 100 crystal coins (1,000,000 gold). It weighs only 1.00 oz, far less than the 10.00 oz of 100 crystal coins, so carrying and trading large amounts of gold is much easier. Use a stack of 100 crystal coins to turn it into an ingot, or use an ingot to change it back. Your gold pouch turns 100 crystal coins into an ingot by itself, bankers and shops pay out large sums in ingots, and you can pay with ingots anywhere you can pay with coins.
+
+### Changed
+
+- For the Reaver's launch week, the login screen plays a Reaver version of the Fireside Ballad.
+- To celebrate the Reaver's arrival, the launcher and the login screen show new animated Reaver artwork for the launch week.
+- Kinetic Armor now builds up against weak monsters too: every monster hit that lands stores at least 4/5/6% of your shield power (by rank), so a few weak hits are enough for a full wave. The wave's limit is unchanged, so it hits bosses no harder.
+- If the game crashes, it now always writes a crash report and tells you which two files to send to the team, so crashes can be found and fixed.
+- The Master Class badges now need a character of every vocation on the account, Monk and Reaver included.
+
+### Fixed
+
+- The sanguine legs' Fierce Berserk critical damage bonus now works. A spelling mistake meant it never applied.
+- Reward bags (Bag You Covet, Bag You Desire, Primal Bag) always open now. If the reward can't get a rarity, you still receive the item instead of an "unavailable" message.
+- Elite and mythic monsters no longer lose their outline and \[ELITE\]/\[MYTHIC\] tag after you change floors or walk out of view and back.
+- The basket with puppies from Tom Govern's quest can now be moved and carried. If you finished the quest but never got to keep the basket, Tom gives you one the next time you talk to him. The Zaoan chess box that couldn't be picked up can now be carried too.
+- The character list now always names Monks, Exalted Monks, Reavers and Harbingers correctly.
+- Monks can now use lightest magic missile runes, like every other vocation.
+- Animated wings and other back cosmetics no longer stand still when you face certain directions.
+- Monks can now do the Elemental Spheres quest: Arkulius gives them the energy sphere mission and the gem machine accepts their amethysts, like for Knights.
+- The Wheel of Destiny's default preset and preset sharing, and the weapon proficiency window's vocation check, no longer break after the Market has been loaded.
+
+<!-- /vestara-client:0.13.0 -->
+
 <!-- vestara-client:0.12.0 -->
 <!-- source-archive-sha256:1ce67149058bf73c6774f2e9621da1569ca1c97a1d77af423612fae9a9a84b3c -->
 <!-- source-content-sha256-v1:a6171c35599c31a5717a869fe16bfc7a2c629bedb7485b866696c87640ec8e23 -->
