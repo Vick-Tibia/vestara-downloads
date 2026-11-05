@@ -4,6 +4,26 @@ Published player-client updates, newest version first. Dates are the UTC release
 
 <!-- vestara-client-history:v1; maintained by the publisher -->
 
+<!-- vestara-client:0.13.1 -->
+<!-- source-archive-sha256:9b6c0aabc1a7ea359c8ebf78fcdb5fb4f4471aa82df7e9e17c32ad304edee529 -->
+<!-- source-content-sha256-v1:448308e7412e56ee06ad4a6716cb9d047464eb76cb9d6f32a639065ea4588b3c -->
+## 0.13.1 — 2026-11-05
+
+Client update
+
+[Release and downloads](https://github.com/Vick-Tibia/vestara-downloads/releases/tag/client-0.13.1)
+
+### Changed
+
+- For the Reaver's launch week, the launcher plays a Reaver version of the Fireside Ballad too.
+
+### Fixed
+
+- The launcher's animated wallpaper no longer flashes black for a moment when its animation starts over.
+- Every bag you covet can be opened now. Some bags looked and were named the same as the normal one but were a different item, and nothing happened when you used them.
+
+<!-- /vestara-client:0.13.1 -->
+
 <!-- vestara-client:0.13.0 -->
 <!-- source-archive-sha256:fac31ae079fe659a0700ac1d8bf8f7815be7f76b135913a0f9d3396a0713b57f -->
 <!-- source-content-sha256-v1:cccd24c98d5cbcd35a35a7b3d4f895ee5f567177018a440715fe883616b5480c -->
