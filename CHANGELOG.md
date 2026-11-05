@@ -4,6 +4,35 @@ Published player-client updates, newest version first. Dates are the UTC release
 
 <!-- vestara-client-history:v1; maintained by the publisher -->
 
+<!-- vestara-client:0.14.0 -->
+<!-- source-archive-sha256:d867acfb69ae750d4448a0af99da4fd33a8f8dbe7720e3714e0690a67cec0945 -->
+<!-- source-content-sha256-v1:5bd9506e66a61f07275b011ae9f717676a3569e29bf3088358d78d7603834c20 -->
+## 0.14.0 — 2026-11-05
+
+Client update
+
+[Release and downloads](https://github.com/Vick-Tibia/vestara-downloads/releases/tag/client-0.14.0)
+
+### Added
+
+- 11 new outfits in the store, each with both addons and for 750 coins: Northland Raider, Orbweaver, Snowmane Champion, Lizard Masquerader, Hooded Sellsword, Bone Shaman, Nightwing Knight, Pelt Hunter, Emberwing Ascendant, Gloomwing Duelist and Nightveil Assassin.
+
+### Changed
+
+- Reaver masteries no longer tie you to one stance. Lingering Chill and Frostwarden now also slow monsters outside Rime Stance, Virulence and Blightbringer also poison outside Blight Stance, Frostwarden's and Blightbringer's other effects, Permafrost (on monsters you slowed) and Contagion work in every stance, and Soulreaper starts at 10 Souls in any stance, with its life leech (changing stance no longer ends the Reaper form). Each path is still strongest in its own stance.
+- All Reaver mastery points have been refunded once, so you can rebuild your tree for free with the new rules. You get a message about it at your next login.
+- The Reaver's Soulreaper form now turns you into the Duskwing, with Shadow Smoke Wings, instead of the violet Grim Reaper.
+- The Duskwing outfit has been removed from the store. It is now reserved for the Soulreaper form, so characters who owned it no longer have it as an outfit.
+
+### Fixed
+
+- Rain, snow and the other weather now also show on house roofs and on the ground right around houses when you're outside. Before, the roofs and a strip of one or two squares around many houses stayed clear.
+- A new character no longer starts with another character's action bar. With per-character hotkeys, its first bar now comes from its vocation's default (or starts empty).
+- Four of the new store outfits (Pelt Hunter, Emberwing Ascendant, Gloomwing Duelist and Nightveil Assassin) can now actually be bought and worn. Before, the server didn't know them.
+- Fixed a game crash that could happen when an elite or mythic monster with its glowing outline came into view, for example after changing floors.
+
+<!-- /vestara-client:0.14.0 -->
+
 <!-- vestara-client:0.13.1 -->
 <!-- source-archive-sha256:9b6c0aabc1a7ea359c8ebf78fcdb5fb4f4471aa82df7e9e17c32ad304edee529 -->
 <!-- source-content-sha256-v1:448308e7412e56ee06ad4a6716cb9d047464eb76cb9d6f32a639065ea4588b3c -->
