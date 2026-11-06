@@ -4,6 +4,29 @@ Published player-client updates, newest version first. Dates are the UTC release
 
 <!-- vestara-client-history:v1; maintained by the publisher -->
 
+<!-- vestara-client:0.15.0 -->
+<!-- source-archive-sha256:c14eed90032a7fbae9e5b286039d1633bee8babe9840a8366762dc6cf4445769 -->
+<!-- source-content-sha256-v1:5934d9202818e0a29a4c3557302dba2bdf527c8a9016ba8d55ed29ba905a55e0 -->
+## 0.15.0 — 2026-11-06
+
+Client update
+
+[Release and downloads](https://github.com/Vick-Tibia/vestara-downloads/releases/tag/client-0.15.0)
+
+### Added
+
+- Immersive layout: a new "Immersive panel opacity" slider in Options \> HUD makes the windows, minimap, equipment, panel buttons and chat see-through (30% to 100%), so they block less of your view. The action bars and the health and mana bars stay solid, and the classic layout isn't affected.
+- New raid: \*\*Ashes of Ferumbras\*\* (level 400+, up to 5 players, weekly reset). Join it from Dungeons & Raids. Ferumbras walks in to greet you before the fight begins. Bring a Knight or Reaver to hold him, keep moving out of his marked attacks, and when he chants EXEVO GRAN MAS OPUS, only the tiles right behind the pillars are safe. Rewards include level 300-500 gear for your vocation and a very rare Ferumbras' hat.
+- Ferumbras achievements: beat him fast, with a small party, without a tank, or without being hit by a single marked attack; survive his ultimate again and again, outrun his seeking orb, and win his hat. Two more are secret.
+
+### Fixed
+
+- Immersive layout: a window you open on the right (or left) no longer appears hidden under the side action bars. The side bars now move beside the windows as soon as a window opens in an empty side panel, and back when the last one closes.
+- Gale Slash's second slash now deals your weapon's element too (for example fire with a fire sword), just like the first slash, and your gear and Wheel bonuses for Front Sweep now count for it as well. Before, it was always plain physical.
+- Quivers and a few starter items no longer list "Nones" among the vocations that can use them; quivers now just say paladins.
+
+<!-- /vestara-client:0.15.0 -->
+
 <!-- vestara-client:0.14.0 -->
 <!-- source-archive-sha256:d867acfb69ae750d4448a0af99da4fd33a8f8dbe7720e3714e0690a67cec0945 -->
 <!-- source-content-sha256-v1:5bd9506e66a61f07275b011ae9f717676a3569e29bf3088358d78d7603834c20 -->
