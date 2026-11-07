@@ -4,6 +4,46 @@ Published player-client updates, newest version first. Dates are the UTC release
 
 <!-- vestara-client-history:v1; maintained by the publisher -->
 
+<!-- vestara-client:0.16.0 -->
+<!-- source-archive-sha256:fd225142cbbb312a0d43bd9f8bde4f888a35134800ff45b235e4786e6a034cdd -->
+<!-- source-content-sha256-v1:fdce2f8235977a3316f38c5d06d2b68638fdecca4ae96f1faaaed893d178436b -->
+## 0.16.0 — 2026-11-07
+
+Client update
+
+[Release and downloads](https://github.com/Vick-Tibia/vestara-downloads/releases/tag/client-0.16.0)
+
+### Added
+
+- A new vocation: the \*\*Nightblade\*\*, chosen at the Oracle and promoted to \*\*Phantom\*\*. Nightblades fight up close with daggers, and an offhand dagger in the shield hand adds a second strike to every basic attack. A hit on a monster from behind, or on one you have Exposed, is a backstab: a sure critical hit that also leaves a Mark on it.
+- Nightblade spells: builders leave Marks (Cutthroat, Throwing Stars, Blade Fan, Star Volley, and Thousand Cuts at level 90), spenders pop up to 3 Marks per monster for big damage (Eviscerate from level 12, Dagger Storm on a group, and Phantom Rush at 100, five dashes from back to back). Feint, Ambush and Smoke Bomb expose monsters, Smoke Bomb's vanish hides you from every monster but bosses, and Evasion dodges hits.
+- Nightblade stances, once promoted: Lightning Reflexes (your basic attacks come 25% faster, but you take 10% more damage) or Substitution (every hit has a 12% chance to miss you, but you deal 5% less damage).
+- From level 51 the Nightblade has its own mastery tree with three paths, Shadow (exposing and vanishing), Storm (lightning that your spenders discharge) and Edge (bleeds and fighting face to face), crowned by the Shadowdancer, Stormblade and Duelist capstones.
+- Nightblade gear: daggers and offhand daggers drop from monsters from the early levels up to Ferumbras, and the endgame swords (soul, sanguine, moonsilver and more) come as Nightblade daggers when a Nightblade gets them. Nightblades wear the Paladin's lighter armour; its most important pieces have shadowed versions with sword fighting instead of distance. Five Nightblade sets add bonuses to backstabs, Exposed and Phantom Rush.
+- The Nightblade has its own Wheel of Destiny, with its own spells and two revelations, Death Blossom and Avatar of Shadows. Nightblades heal with the Knight's healing spells, drink the same potions as Reavers and summon the Paladin's familiars for now.
+- Reaver masteries: two new nodes for your abomination. Rotting Aura makes it damage every monster next to it every 2 seconds while you fight. Flesh Cleaver turns every third hit of your abomination into a cleave that hits harder and also hits the monsters in a cone behind and beside its target.
+
+### Changed
+
+- The Cyclopedia badge for having every vocation on your account now also needs a Nightblade: accounts that had it lose it until a Nightblade on the account reaches the required level.
+- New music plays in the launcher and on the login screen: Fireside ballad nightblade.
+- The launcher and the login screen show new artwork: Nightblade launch.
+- Gear that comes in a Knight and a Reaver version now drops in the version for whoever gets it: a Knight always gets the Knight piece and a Reaver the harrowed one. Monster loot follows the corpse's owner, boss rewards and reward bags the player who gets them. Gear you carry also switches to your vocation's version when you log in, in both directions, keeping all its bonuses and upgrades.
+- Reaver weapons now gain weapon proficiency as fast as Knight weapons.
+- Reaver, Blight Stance: the poison is stronger and faster, a quarter of each hit over 4 seconds (was 15% over 6 seconds), so it pays off before monsters die. When a poisoned monster dies, every stack of its poison now jumps to the 2 nearest monsters, instead of one stack to one monster.
+- Reaver, Bone Ward: the ward now soaks 40% of every hit for 10 seconds until it has absorbed its full amount, instead of eating whole hits at once, so it lasts through a fight instead of one or two hits.
+- Reaver: players and monsters can now walk through the Raise Abomination undead; it no longer blocks corridors.
+- Reaver, Raise Abomination: your abomination can no longer be hurt or killed and no longer runs out of time. It stays with you until you die or log out (or leave it far behind). Monsters ignore it, so it cannot tank for you. Feeding it Souls still makes it stronger up to 20 growth; each growth adds a little less damage than before because it no longer resets.
+- Reaver, Withering Wave: the wave now starts on all 3 squares in front of you, so it hits the whole front of a group of monsters instead of just the one straight ahead. It is a little stronger, deals 10% more for every other monster it hits (up to 40% more), and every monster it hits deals 10% less damage for 5 seconds (5% for bosses).
+- Reaver masteries: Grave Pact (a longer-lasting, tougher abomination) is gone now that the abomination never dies, and Flesh Cleaver takes its place. All Reaver mastery points are refunded once when you log in, for a free respec.
+- Small client updates through the Launcher are now much faster. Game files that did not change are no longer copied and checked twice, so a minor patch takes a few minutes or less instead of up to 20. The Launcher updates itself to this version first.
+
+### Fixed
+
+- Reaver, Blight Stance: a monster dying with several poison stacks now spreads all of them, not just one.
+
+<!-- /vestara-client:0.16.0 -->
+
 <!-- vestara-client:0.15.0 -->
 <!-- source-archive-sha256:c14eed90032a7fbae9e5b286039d1633bee8babe9840a8366762dc6cf4445769 -->
 <!-- source-content-sha256-v1:5934d9202818e0a29a4c3557302dba2bdf527c8a9016ba8d55ed29ba905a55e0 -->
