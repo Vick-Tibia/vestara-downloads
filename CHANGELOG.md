@@ -4,6 +4,27 @@ Published player-client updates, newest version first. Dates are the UTC release
 
 <!-- vestara-client-history:v1; maintained by the publisher -->
 
+<!-- vestara-client:0.17.0 -->
+<!-- source-archive-sha256:003aa0191e432f9d01fe5d742c0b71dcf428ec580f6311d4aff3d6ead2ec94e2 -->
+<!-- source-content-sha256-v1:4e0d7f6a0a8fece38cb06bea433b2f33932d28ae3f5655d3c91957f6a02d39d4 -->
+## 0.17.0 — 2026-11-09
+
+Client update
+
+[Release and downloads](https://github.com/Vick-Tibia/vestara-downloads/releases/tag/client-0.17.0)
+
+### Added
+
+- New raid: The False Ascension, the moonsilver dungeon beyond Albion (level 800+, a party of six, weekly). Take six of the plates around the fountain and pull the lever to face the Envoy of the Heavens, then what wears his halo: Lucifer, the False Light.
+- Moonsilver bag: the raid's reward bag. Open it for a piece of moonsilver equipment for your vocation.
+- Auric moon sigil: use it on a moonsilver weapon for a 5% chance to turn it stellar. A stellar weapon is always Divine with the most affix lines it can hold. Your first clear of The False Ascension always gives one.
+
+### Changed
+
+- Nightblade: new animations for Cutthroat and Eviscerate (crimson slashes), Feint (a steel arc), Ambush (a shadow streak along the dash) and Phantom Rush (a speed blur at every dash and a crimson double slash on each hit). Dodging with Evasion now shows a speed blur too.
+
+<!-- /vestara-client:0.17.0 -->
+
 <!-- vestara-client:0.16.0 -->
 <!-- source-archive-sha256:fd225142cbbb312a0d43bd9f8bde4f888a35134800ff45b235e4786e6a034cdd -->
 <!-- source-content-sha256-v1:fdce2f8235977a3316f38c5d06d2b68638fdecca4ae96f1faaaed893d178436b -->
