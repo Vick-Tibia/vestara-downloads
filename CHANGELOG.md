@@ -4,6 +4,97 @@ Published player-client updates, newest version first. Dates are the UTC release
 
 <!-- vestara-client-history:v1; maintained by the publisher -->
 
+<!-- vestara-client:0.18.0 -->
+<!-- source-archive-sha256:cf6620cd9cdd5d18047433e43fe1598bb6e3317eda75a9c04560143d5743b943 -->
+<!-- source-content-sha256-v1:561d687fa697399dbce6543a20a419f6b0942ece73c0d764fb3f6cfb6fcff0cd -->
+## 0.18.0 — 2026-11-12
+
+Client update
+
+[Release and downloads](https://github.com/Vick-Tibia/vestara-downloads/releases/tag/client-0.18.0)
+
+### Added
+
+- The Outfits window has a new look: preview, addons and colours on the left, your outfit, mount, wings, aura, effect and shader in the middle, and every look you own on the right, with a search. Star favourites to list them first, and save presets that keep your whole look.
+- The Store has been redesigned: a home page with featured, popular and sale offers, offer cards with clear badges, a large preview, pack sizes and quantities that show exactly what you get and the total, and purchases completed inside the Store. Search works as you type, and offers can be sorted.
+- The Battle List has a new look: buttons to show monsters, players and NPCs with their counts, filters and sorting (closest first by default), distance and health in each row, vocations, party stripes, gold elite and violet mythic frames, and red and green rows for your target and followed creature. Party members under 50% health gently pulse while sorting by health.
+- NPC trade and player trade have a new look. NPC trade lists one item per row, says why a row can't be traded, shows the total, weight and gold after the trade, and lets you type or step the amount. Player trade shows both offers with counts and tells you what to do next.
+- Item rarity marker: in Options, choose how rare items are marked: an outline, a coloured slot frame, a soft glow, coloured corners, or off. Each style is shown on a sample item.
+- New: the Adventure Guide (sidebar button). It lists hunting grounds for your level and vocation with what each is best at, their monsters, weaknesses, what to bring and the loot worth taking. Track route shows the way step by step, with an arrow and a minimap mark.
+- Adventure Guide: What to do next shows one clear next step, more things worth doing now and what opens later, including the basics many guides start with, such as a rope and shovel, the bank, Rashid and the djinns.
+- Task window: NPCs that give tasks (Grizzly Adams, the Spike gnomes, Bigfoot's Burden and more) open a window with your tasks, progress, rewards and buttons to start, cancel and turn in. Grizzly Adams also shows your Paw and Fur rank and bosses. Typing still works.
+- NPC conversations: buttons under the NPC chat show what you can say, such as Trade, Mission or the places a captain sails to. Captains and other travel NPCs open a travel window with every destination and price, and bankers open a bank window to deposit, withdraw, transfer or change coins.
+- Minimap: a label shows which floor you are looking at, and the coordinates of the spot you point at.
+- New: the Task Board (sidebar button Task Hunt). Three daily tasks are picked for your level and vocation; finish one for experience, gold, Hunting Task Points and bonus bestiary kills. Reroll with tokens (one free each day), abandon a task for free, and get new tasks for free once you outlevel them.
+- Task Board: weekly kill and delivery tasks with a points multiplier up to x8, and a Task Shop with the Falconer outfit, the Antelope mount, trophies and a falcon pet. A Task Tracker window shows your progress, and the Task Hunt button shows a dot when a reward waits.
+- Cyclopedia map: search for towns, NPCs and your map marks, and the map moves to the spot on the right floor.
+- Entering a major city shows its name with a short animation; the first visit reads City discovered with a count of the 15 cities. Your first visit to each Adventure Guide hunting ground shows its name too. Logging in inside a city does not show it.
+- Bestiary: a card slides in when you first kill a creature, unlock more details or complete an entry. Vestara's own creatures now have entries, a For your level button lists the creatures that suit you, a creature's page lists its hunting grounds, and the search finds any part of a name.
+- Attribute perks: 100 bought ranks of Nature Magic make food last 25% longer, and 100 of Luck give 5% more gold from monsters. Ranks from gear do not count. A banner celebrates each perk you unlock.
+- Banners for the big moments: level 20 and every 50th level, a raid starting, won or failed, your first kill of any boss, a finished task (with the creature you hunted), a completed quest, a set step or complete set (with rings rippling from the pieces), an affix stone result and a new best hit.
+- Rare drops: a Legendary or better item shows a banner with its picture in its rarity's colour, for you and party members nearby. Several drops at once share one banner, and the corpse keeps flaring until the item is taken.
+- More banners: when you earn a mastery point (the Masteries button shows the points waiting), when you kill an elite or mythic creature (each with its own death effect), when your Market offers sell, and for world firsts, which everyone online sees: the first to reach level 100, 200 and so on, or to beat a raid boss.
+- Combat feedback: Spell Echo, Heal Echo, Ricochet and the mastery Cleave show a short word over the target when they trigger. Critical hit numbers are larger and brighter, and the edges of the game view turn softly red below a quarter of your health.
+- Upgrades: gear in your bags and corpses shows a small green arrow when it is better than what you wear on every stat they share. A higher rarity alone does not count. A switch in Options turns the arrows and gear comparison on or off.
+- Forge and affix stones: the item glows in its rarity's colour when a fusion, transfer or stone succeeds, and fades grey on a failure. Banners play short, quiet sounds that follow the interface sounds option.
+- New: the Journal (sidebar button). The Timeline lists what your character has done, from cities and hunting grounds to milestone levels, boss kills, raid clears, quests, achievements, the best drops and the first time you wore a great item. Places and Lore fill as you explore.
+- Towns: criers greet you by your latest deed, call out the weekend event and raid victories, and show the board of recent deeds or the champions. Each crier town has a notice board by the temple, statues of each vocation's highest character stand in Thais, and other NPCs may mention your deeds.
+- Guilds: online guild members are told when a member defeats a boss for the first time, clears a raid or finishes a quest.
+- Session summary: logging out shows what the session came to: time, experience, levels, best drop, tasks, quests, places, hardest hit and deaths. The exit window has a Session button for it.
+- Death window: it shows the last hit you took, the damage of your final 12 seconds and where it came from, with clear text and Respawn and Log out buttons.
+- Cyclopedia: the Character tab opens on your character sheet: title, level progress, attributes, strongest masteries, combat stats, gear rarity, sets and last deaths.
+- Highscores has a new look: categories, one-click vocation filters, a podium with the top three in their outfits, your own row marked and Jump to me.
+- Items of Uncommon rarity or better remember where they were found, for example "Found on a dragon lord, 12 Nov 2026, by Sir Galahad", even after a trade or a Market sale.
+- Fame: give another player fame from their inspect window, once a day from level 50. Everyone sees a character's fame when inspecting them.
+- After an update, a What's new card shows its notes the first time you log in, and a short note tells you what happened since you were last here: a new task week, a weekend event and your guildmates' deeds.
+- Notifications share one column at the top of the game view, in both layouts. Banners, achievement pop-ups, Bestiary updates and the login note line up and wait their turn instead of covering each other.
+- Immersive layout: share your layout as a code with Copy layout code, and load someone else's with Use a layout code. New players pick a starting layout (Minimal, Standard or Everything) from small previews, and the layout menu shows the presets again any time.
+- Tutorial tips: new cards introduce the Adventure Guide, the Task Board, your promotion at level 20, the Journal, elite creatures, fame, dying, and Lock windows with Ctrl+Alt.
+
+### Changed
+
+- Immersive layout: windows snap more gently and not over a side panel, moving the minimap no longer drags the panels below it, and with Lock windows on you can still move a window by holding Ctrl+Alt as you drag.
+- Achievements: the unlock pop-up stays about 25 seconds (shorter when other notifications wait). Click its x to close it, or click it to open your achievements.
+- Attributes: ranks cost more the higher an attribute goes (1 point each up to 200 ranks, 2 up to 300, and so on), and each rank does more: 0.08% damage or healing, up from 0.05%. All your points are returned on your first login to spend again.
+- Attributes: Vitality and Intelligence raise maximum health and mana by a share of your own (0.04% health and 0.03% mana per rank), so they are worth the same to every vocation.
+- Monsters have more health the higher the level they are meant for (about 13% more at level 100, 23% at 300, 32% at 600), with that much more experience and a matching chance of a second loot roll, so experience and loot per hour stay the same. Bosses and Vestara's own monsters are unchanged.
+- Gear: Strength, Dexterity, Arcane Magic and Nature Magic lines go up to 100, down from 150, as each rank is worth more; owned items keep their roll quality. Early sets that gave Vitality or Intelligence now give health or mana directly.
+- Reaver: Soul Rend gains 4% damage per Soul instead of 8%, and your abomination hits harder to make up for it.
+- Nightblade: distance fighting on Paladin gear counts as sword fighting for you, and tooltips show it that way.
+- Quest Log: a progress bar, ticked quests and missions, and pinned or hidden quests that are remembered.
+- VIP list: online count, add and show-offline buttons, online players first, offline players in grey and notes on hover.
+- Hotkeys window (Ctrl+K): every hotkey says in plain words what it does and can be searched, changes save as you make them, and Reset all asks first.
+- Blessings window and Supply Stash: blessing names on hover, a count of active blessings, a Get blessings button, and number boxes with - and + and quick amounts instead of sliders.
+- Pop-up boxes and choice windows: the confirming button is on the left, labels fit, errors have a red title, the selected option is clearly highlighted, and typing boxes take the cursor straight away. The chat's channel list highlights your choice too.
+- Prey: the tracker shows each creature, bonus and time left with a time bar, and the Prey window explains every button and shows an active prey's bonus and time left.
+- Books and letters show who wrote them and when, with a character counter.
+- Cyclopedia: tab names on hover, an empty houses message, and placeholder texts replaced.
+- Smaller windows tidied up: Bug report, Unjustified Points, the Imbuement tracker, the Loot splitter, Weapon Proficiency and the Daily Reward wall read more plainly.
+- Options window redesigned: every page in one list, clear headings, a search for any setting, arrow buttons with values instead of long sliders, and hover help. Reset and restart and clearing an action bar ask first. Interface scale and text sizes go in 10% steps.
+- Market: a clearer layout, with full item names, a taller category list, For sale and Wanted lists, labelled gold and coins, and no cut-off buttons.
+- Quick loot window: clearer buttons, tooltips on every slot and plain help text.
+- Skills window: Ricochet Targets shows (cap) in gold at your limit. Analyser charts use the Vestara greens.
+- Task Board: easier to read, with clearer buttons, tabs, banners, counts and rewards.
+- Sidebar buttons have plain names on hover. The Journal button shows a dot for new entries, and the Skills button while attribute points wait. Leaf ornaments are gone from the Dungeons & Raids and Achievements windows.
+
+### Fixed
+
+- Immersive layout: a panel placed under a side panel's windows stays under them instead of pushing them below it.
+- Outfits: changing your outfit keeps your wings, aura, effect and shader; unticking Ride mount really makes you walk; locked wings, auras and effects can't be worn; and a crash when wings came off a preview is fixed.
+- Outfits window: the search always filters, the window opens with what you wear, and Enter in the search no longer applies and closes.
+- Store: mount pictures show on the home page, the coin check matches the server, Get Coins explains how to get coins, and categories with sub-categories no longer open empty.
+- Quest Log: the second quest no longer always shows unfinished, symbols in the search work, and filters stay applied.
+- VIP list: login and logout notifications work again.
+- Blessings window: the History view works, the promotion text is right and penalty percentages show correctly.
+- Prey tracker: the third slot is no longer cut off, and unlocked slots show again.
+- Unjustified Points and the Imbuement tracker no longer cause errors or pile up hidden items.
+- Options: Control Buttons names are readable, clearing right bar 3 no longer clears right bar 1, and drop-down lists open again.
+- Market: categories keep working after an error.
+- Map marks: the Description label no longer overlaps the text box.
+- Quick loot: the search filters your loot list, and clearing a list asks first.
+
+<!-- /vestara-client:0.18.0 -->
+
 <!-- vestara-client:0.17.0 -->
 <!-- source-archive-sha256:003aa0191e432f9d01fe5d742c0b71dcf428ec580f6311d4aff3d6ead2ec94e2 -->
 <!-- source-content-sha256-v1:4e0d7f6a0a8fece38cb06bea433b2f33932d28ae3f5655d3c91957f6a02d39d4 -->
