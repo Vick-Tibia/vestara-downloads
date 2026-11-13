@@ -4,6 +4,72 @@ Published player-client updates, newest version first. Dates are the UTC release
 
 <!-- vestara-client-history:v1; maintained by the publisher -->
 
+<!-- vestara-client:0.19.0 -->
+<!-- source-archive-sha256:15905f4e18c79c5cac924e4c5a4fa0b09da61aa7616ad858011064a2ca4ce77c -->
+<!-- source-content-sha256-v1:ebd3ed0eff28f1734e1404075eb38e720c3a4d9cf721c4289f617dbbe348e578 -->
+## 0.19.0 — 2026-11-13
+
+Client update
+
+[Release and downloads](https://github.com/Vick-Tibia/vestara-downloads/releases/tag/client-0.19.0)
+
+### Added
+
+- New Auction House in the market window: sell an item from your depot for gold or Tibia Coins. Choose whether players can bid, set an optional minimum bid and buyout price, and pick 1, 3, 7 or 14 days. A small listing tax is paid when you list, growing with the price and the duration.
+- Auction House bidding: your bid is held from your bank or your transferable Tibia Coins, and comes straight back if someone outbids you or buys the item out. The highest bid wins when the time is up and the item arrives in your inbox. Items that get no bids return to the seller's inbox.
+- Hovering an item listed in the Market or the Auction House now shows its full tooltip, with its exact rarity, affixes and tier, just like in your backpack.
+- Houses are now auctioned in the Cyclopedia (Houses tab). Pick a town, see which houses are free, rented or on auction, and bid with the gold in your bank. The auction runs 7 days from the first bid and is settled at the daily server save; the highest bidder wins and pays about the second-best bid (only the rent if nobody else bid).
+- House owners can move out, keep their house, or transfer it to another character for a price from the Cyclopedia. The new owner accepts or rejects the transfer there, and the gold is held safely until the transfer day.
+- New characters who reach level 8 on Rookgaard without a vocation are now brought straight to the Oracle (once they are out of a fight), with a tip explaining how to choose a home town and a vocation.
+- The Oracle now gives advice on which home town suits each vocation best for a first trip to the mainland: ask the Oracle for "advice". Every town is still on offer.
+- Tutorial tips can now point things out on the screen: a gold box and a gently bouncing arrow show the people and places a tip talks about, and a small arrow points at the buttons it mentions. A new Rookgaard tip shows you around the village.
+- New tutorial tips explain Spell Echo the first time one of your spells echoes, and equipment sets the first time you pick up a set item.
+- The Cyclopedia Items tab now shows which creatures drop an item and how often, right under the item's details.
+- Campfires: buy a campfire kit in the Task Board shop and light it on a free street square of a major city (not in houses, depots or temples). It burns for 10 minutes. Stand close for a minute (a small countdown shows next to the global boosts) and you get +3% experience from monsters for 30 minutes.
+- Rested experience: log out in a house or a protection zone and you slowly become rested, up to 30% of a level over about 20 hours. While rested, monsters give +10% experience until it is used up. Rested and campfire together never give more than +10%.
+- Sounds from Tibia: spells, weapon hits, creature noises and death cries now play, quieter the farther away they are, along with the sea, birds, wind and caves of the place you are in, all the official Tibia sounds. Each kind of creature has its own voice. Change or turn them off under Options \> Sound (Sound effects, Ambient sounds).
+- Music from Tibia: each city plays its own Tibia theme a few seconds after you arrive, then stays quiet for a while, like on Tibia. Feyrist, Marapur, Gray Beach, Rookgaard, Dawnport and the countryside around Thais have their own themes too, and the royal throne rooms and boss lairs play their music as soon as you walk in. Turn it on or off under Options \> Sound (Music).
+- Weapon swings: auto-attacks now show the weapon swinging at the target, like on Tibia: swords, clubs, axes, bows, crossbows and bare fists each have their own animation, seen by everyone nearby. Fist weapons now make a sound too, and rods sound different from wands.
+- Hunt summary: back in a city after ten minutes or more away, a small card shows how long you hunted, the experience gained, your balance, your best drop and what you slew most. Click it to open the Hunt analyser. You can turn it off under Options \> Interface.
+- Friend moments: when a friend (on your VIP list, with you on theirs) reaches every 10th level, finds a mythic item, beats a boss or raid for the first time, or comes back after a week away, you get a quiet line in the Server Log and their name glows in your VIP list. Never during a fight. You can stop sharing yours under Options \> Interface.
+- After-raid card: when your party wins a raid, a card shows who dealt the most damage to the boss, who healed the most, whether nobody fell, and who cleared it for the first time. The raid window's Last run button shows it again.
+- Journal chapters: your journal is now split into chapters by level, each with a short summary of the cities reached, bosses beaten and more. Very old minor lines (hunting grounds, repeat raid clears, lesser drops) are folded into their chapter's summary, so the journal never grows too large.
+- Character list: the hero card now shows a small picture of the city each character was last in, behind the hero, with the name kept easy to read.
+- Spend points: after a milestone level, or when five or more attribute points are waiting, a small card offers a Spend points button that opens your skills.
+
+### Changed
+
+- The launcher and the login screen play the usual Vestara music again.
+- The launcher and the login screen are back to the Vestara campfire.
+- The login screen's "Did you know?" tips now come from a much larger set covering Vestara's own systems and classic Tibia basics.
+- !buyhouse, !leavehouse and !sellhouse now point you to the Cyclopedia Houses tab. Your bid limit and first rent are taken from your bank when you bid and returned right away if you are outbid. Each character can own one house and bid on one house at a time.
+- Catch-up is back, gently: characters below 70% of the highest level gain up to 50% more experience, less the closer they get, and none from 70% of the top up. Skills and magic level work the same way against the best in that skill. It doesn't add to the low-level bonus; the larger of the two counts.
+- The action bars have a new Vestara look in both the classic and immersive layouts: green slot frames that brighten when you hover, a gold frame on equipped items, and clearer hotkey labels and cooldown numbers.
+- The page buttons at the bottom of backpacks now match the Vestara style.
+- The Cyclopedia Items tab is easier to read: a taller category list, a clear highlight on the selected category and item, and new filter buttons.
+- The Cyclopedia Houses tab has a cleaner look, and the house you select is outlined in gold.
+- The Prey window's slot titles are now gold, and the time left on a prey bonus is easier to read.
+- NPCs who mention your recent great deeds now do so once per town instead of once per NPC, remember it after a server restart, and also notice world firsts and mythic kills.
+- The Adventure Guide's route tracker now leads you step by step, like a levelling guide: each step says which way to go, how far and what to look for ("Go north-east for about 80 steps to a ladder and climb up it"), and the next step appears once you have taken it. A steady arrow points straight at the next stairs, ladder, hole or boat captain, and a second line says where the hunting ground lies. Routes are walked on the real map for almost every hunting ground, including journeys by ship.
+- Route tracker: the next spot and the hunting ground are now marked on the minimap. When they are too far away to be on it, the marks sit on the minimap's edge in the direction to walk.
+- Adventure Guide: "Mark on map" is now "Show on map" and opens a route map instead of the full-screen world map: the area around the place, a flag on the hunting ground, your own position, and for a tracked route a dotted trail, a numbered pin for every step and the list of steps beside it. Click a step to see it on the map. The route card has a Show on map button too.
+
+### Fixed
+
+- House rent is now charged when it is due; until now a server restart reset it.
+- The right-click menu no longer offers "Use" on things that can't be used, such as plain chairs, walls and decorations. Anything a quest or script lets you use, doors, beds, levers, books and the like still show it.
+- The login screen now shows today's boosted creature and boss and the event calendar (the coming weekend events and any special events). They update each time you log in, so the first login of a day fills them in.
+- Travelling by boat or carpet with the Travel window works again: pressing Travel on a destination now takes you there straight away, without typing the destination and "yes" in the chat. You can still type them if you prefer. The window now counts the gold you carry and have in the bank, opens again when you say hi, and closing it no longer stops your character from walking with the arrow keys.
+- The Bank window now does what you ask straight away: Deposit, Withdraw, Transfer and Change no longer type the words in the chat over and over. The banker answers in the chat, the window shows the answer and your new balance. You can still type to the banker if you prefer.
+- Using the NPC conversation buttons, including the More list, no longer stops your character from walking with the arrow keys.
+- The Bestiary pop-up works again: it shows the creature's picture, whether it is a new entry, an update or a completed entry, and how many kills the next stage needs.
+- The Store window has a close button again, at the top right.
+- Highscores: hovering over or clicking a category no longer leaves it highlighted, categories no longer get stuck while loading (an empty one now says no one is ranked yet), and the "All vocations" filter is back.
+- Fixed the game client crashing after you died, or when you equipped several pieces of gear in a row, such as putting on a full set.
+- Route tracker steps no longer get cut off at the edge of the card (for example the town to say to a boat captain).
+
+<!-- /vestara-client:0.19.0 -->
+
 <!-- vestara-client:0.18.0 -->
 <!-- source-archive-sha256:cf6620cd9cdd5d18047433e43fe1598bb6e3317eda75a9c04560143d5743b943 -->
 <!-- source-content-sha256-v1:561d687fa697399dbce6543a20a419f6b0942ece73c0d764fb3f6cfb6fcff0cd -->
