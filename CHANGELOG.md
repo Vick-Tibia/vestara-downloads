@@ -4,6 +4,28 @@ Published player-client updates, newest version first. Dates are the UTC release
 
 <!-- vestara-client-history:v1; maintained by the publisher -->
 
+<!-- vestara-client:0.22.0 -->
+<!-- source-archive-sha256:50ec432ce3a2767b5681c49caf065a78c3add5c37318bb2c9c5119429c74a1df -->
+<!-- source-content-sha256-v1:b365b54ef42a7c9451b4d5cd241e6650c0194f73ec36f8864b7df5620a65e9f8 -->
+## 0.22.0 — 2026-11-13
+
+Client update
+
+[Release and downloads](https://github.com/Vick-Tibia/vestara-downloads/releases/tag/client-0.22.0)
+
+### Added
+
+- Task Shop: new goods for your Hunting Task Points. An extra daily task (up to two a day), potions by the hundred, affix stones (Resonance, Affine Exchange and Alloy Reforge Gems), forge essences and exalted cores, random gems, prism shards, jeweler's augers and the three multitools.
+- Adventure Guide and Task Hunt: 23 late-game hunting grounds, from the Feyrist nightmare caves and the Dream Courts to the Secret Library, Gnomprona, the Soul War and Rotten Blood. High-level characters now get daily and weekly tasks for creatures of their own level, and the Bestiary's "For your level" list knows them too. These grounds do not have step-by-step routes yet.
+- Adventure Guide: "Reach level" rewards now go on after level 100, at fifteen milestones up to level 2,000. They pay gold and now and then affix stones, exalted cores or socket materials. Milestones you have already passed can be claimed straight away, three at a time.
+
+### Changed
+
+- Daily tasks are now truly daily and worth doing: you can do three a day (the day starts again at the server save), and each pays the full experience of the creatures you hunted for it, several times more than before. The Task Hunt window shows how many you have done today.
+- Weekly tasks pay more experience: every task now gives the full experience of its creatures instead of half, at your experience rate. Weeks that are already running are raised as well.
+
+<!-- /vestara-client:0.22.0 -->
+
 <!-- vestara-client:0.21.0 -->
 <!-- source-archive-sha256:c63f37d5e07b8edf0c92922032bcd4109cc6e4212cc0b299fe77d68f6569b672 -->
 <!-- source-content-sha256-v1:62d99c6f7d2998e5e0a1fc20e064b999f7e2c2ac47dbddd62351bc3666d7e160 -->
