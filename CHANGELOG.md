@@ -4,6 +4,42 @@ Published player-client updates, newest version first. Dates are the UTC release
 
 <!-- vestara-client-history:v1; maintained by the publisher -->
 
+<!-- vestara-client:0.20.0 -->
+<!-- source-archive-sha256:526b607a7da9c5544dae22dd78312a34d2823b33fb7cc4d89e841adb194f4a5f -->
+<!-- source-content-sha256-v1:8873922d9602ce5e08ffc2dcd91fecb812e8282f34c6292f7e63d32f6e932126 -->
+## 0.20.0 — 2026-11-13
+
+Client update
+
+[Release and downloads](https://github.com/Vick-Tibia/vestara-downloads/releases/tag/client-0.20.0)
+
+### Added
+
+- The Launcher now shows whether the game server is online and how many players are playing.
+- The Launcher has a Discord button, and keeps a log you can copy from the Activity panel when you need help from the team.
+- At the Oracle, a new overview shows what every vocation does before you choose: how it fights, its first spells, how masteries shape it later, and a small scene of the vocation casting one of its spells.
+- The Adventure Guide now pays rewards. When you finish a goal in "What to do next", such as your first hunt or reaching level 10, 20 or 30, press Claim reward for gold and useful items. At level 20 you pick one weapon for your vocation.
+- On Rookgaard, the guide now leads you through Huntsman Fargas's tasks one step at a time: to Fargas, to the monsters (rats first, down the sewer grate in the village), and back for your reward and the next task. A counter shows your kills.
+- You can read tutorial tips again: use "Read earlier tips" on any tip, or the Earlier tips button in Options \> Interface \> Tutorial.
+- New tutorial tips: pushing creatures and players, rope and shovel, potions, and the bank and depot. On Rookgaard, a tip after your first kill shows the two spells you already know, Practise Fire Wave and Practise Healing; another shows your vocation's first spells once you choose one.
+- When you pick an early hunt in the Adventure Guide and have few potions, the route stops at your town's potion seller first.
+
+### Changed
+
+- Launcher downloads continue where they stopped when your connection drops, and no longer give up after 30 minutes on a slow connection. Progress shows the size, speed and time left.
+- Installing the game for the first time is faster, and updates need much less free disk space.
+- The Launcher rests while you play: its animated background stops while the game is running, and it checks for new updates by itself when you come back to it.
+- Launcher error messages are clearer, for example when you are offline or your disk is full.
+
+### Fixed
+
+- The Bestiary pop-up no longer has a see-through strip along its top.
+- Bows and crossbows no longer show a melee swing when you attack; staves and fist weapons show the right one.
+- The Launcher window now fits on small or zoomed-in laptop screens.
+- The Launcher tells you when the game could not start, instead of saying it started.
+
+<!-- /vestara-client:0.20.0 -->
+
 <!-- vestara-client:0.19.0 -->
 <!-- source-archive-sha256:15905f4e18c79c5cac924e4c5a4fa0b09da61aa7616ad858011064a2ca4ce77c -->
 <!-- source-content-sha256-v1:ebd3ed0eff28f1734e1404075eb38e720c3a4d9cf721c4289f617dbbe348e578 -->
