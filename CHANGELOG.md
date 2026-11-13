@@ -4,6 +4,83 @@ Published player-client updates, newest version first. Dates are the UTC release
 
 <!-- vestara-client-history:v1; maintained by the publisher -->
 
+<!-- vestara-client:0.21.0 -->
+<!-- source-archive-sha256:c63f37d5e07b8edf0c92922032bcd4109cc6e4212cc0b299fe77d68f6569b672 -->
+<!-- source-content-sha256-v1:62d99c6f7d2998e5e0a1fc20e064b999f7e2c2ac47dbddd62351bc3666d7e160 -->
+## 0.21.0 — 2026-11-13
+
+Client update
+
+[Release and downloads](https://github.com/Vick-Tibia/vestara-downloads/releases/tag/client-0.21.0)
+
+### Added
+
+- You can now salvage gear you don't need at the Exaltation Forge. It breaks down into essences, the forge's new upgrade material: the item's stars decide which essence you get and its rarity how much. Rare and better items can also give an affix stone.
+- At forge tiers 3 and 6 you now choose a permanent upgrade for the item: Refine one of its affix lines, or Imprint a new attribute on it. At tier 6, every kind of forgeable item can instead take an upgrade of its own, such as a stronger Momentum, extra physical resistance or an extra ricochet target. Your choices appear in a new Forged section of the item's tooltip.
+- Items with 9 or more stars can reach forge tier 9 and gain a unique effect, such as Last Stand (survive a killing blow once every 4 hours), Twin Cast, Volley or Fleetfoot. Only one forged unique effect works at a time.
+- Anvils now let you salvage gear too. An anvil in your own house does everything the Exaltation Forge does, so you can enhance, upgrade and salvage at home.
+- The anvil is now house furniture: buy it for 850 coins in the store, or for 25,000 hunting task points from the Task Board shop or Walter Jaeger, and unwrap it in your house.
+- Mythic monsters now drop forge slivers.
+- Gear now has gem sockets. Every weapon, armor, helmet, legs, boots, shield, spellbook, ring, amulet and quiver gets from 1 socket up to a maximum set by its stars and type (up to 6 on moonsilver gear). Items you already own get theirs the first time you look at, equip or carry them. Sockets are shown in a new Sockets section of the tooltip.
+- Gems drop from monsters. Stronger monsters drop better grades, elite and mythic monsters drop gems more often, and many monsters drop gems that suit them: dragons drop Draconic Ward and Ember, undead drop Undead Bane and Last Rite. Corrupted False Halo gems drop only from moonsilver monsters.
+- 13 gems to start: Hemorrhage, Deep Roots, Hexweaver, Ricochet Lens, Ember, Undead Bane and Marked for Death (red), Draconic Ward and Martyr's Ward (green), Last Rite, Predator and Pack Leader (blue), and the corrupted False Halo. Each comes in five grades, from chipped to radiant. Wearing the same gem more than once gives less from each extra copy, and only one Last Rite counts.
+- Set, remove and combine gems in the new Sockets tab of the Exaltation Forge or an anvil in your house. Setting a gem is free; taking one out costs gold depending on its grade, and the gem comes back unharmed. Three gems of the same kind and grade combine into one of the next grade. Salvaging an item, or giving away its forge tier, returns its gems.
+- Red sockets take red gems, green take green and blue take blue; rare prismatic sockets take any gem. Prism shards (recolour an empty socket) and jeweler's augers (one try per item, 50% chance, to add a socket) drop from elite and mythic monsters and raid bosses.
+- The forge tier 3 upgrade has a new choice, Open: make one of the item's sockets prismatic.
+- Token traders take part in gems: Yana now sells prism shards for 10 gold tokens and jeweler's augers for 25 gold tokens (her imbuement material bundles are gone), and Cledwyn finds you a random flawed gem of the colour you choose for 5 silver tokens.
+- Imbuing shrines are now gem shrines. Use one to combine three gems into the next grade, or pay gold to reroll a gem into a random other gem of the same colour and grade. The store sells gem shrines for your house.
+- Last Rite and the forged Last Stand share one save: after either one saves you, both wait for their cooldown.
+- The journal's Places page is much bigger: besides cities and hunting grounds you can now discover villages, islands, landmarks, caves and dungeons, boss lairs and wild regions such as the Plains of Havoc, over 200 places in all, each group with its own count.
+- In the Cyclopedia Houses tab, selecting a house now shows where it is: its town, how far it is from the temple and in which direction, and a "Show on map" button that opens the map at the house entrance.
+- Selected houses now show a floor plan of their rooms with the walls, the doors and the entrance marked. You can switch between floors, and the size, beds, floors, rent and type are listed next to it.
+- The login screen now shows how many adventurers are online, next to the green dot at the top. The dot dims when the game server cannot be reached.
+- New option "Weapon swing animation" (Options \> Graphics \> Effects): switch off the weapon that appears beside an attacker and swings on every melee attack, if you prefer attacks without it. It is on by default.
+- At the Oracle you now choose your vocation and your home town in a window: pick a vocation, pick a town (the ones recommended for that vocation are listed first) and confirm. The buttons act directly, nothing is typed into the chat. Talking to the Oracle still works as before.
+- The vocation window now also tells you which titles each vocation's capstones lead to, such as Berserker, Blademaster or Guardian for a Knight.
+- New achievement "A Wider World" for leaving Rookgaard and reaching the mainland.
+- Adventure Guide: every milestone now shows what it pays as pictures (gold, potions, the weapons you can choose from), and a dot on the Adventure Guide button tells you when a reward is waiting to be claimed.
+- When you complete an Adventure Guide milestone, a card now tells you which one, what it pays and to press Claim reward. Rewards still unclaimed are mentioned once when you log in.
+- Adventure Guide: the troll caves near Thais, Edron, Venore and Ab'Dendriel and the Amazon Camp near Venore are now tagged "New player friendly" and listed first for characters below level 20.
+- Nightblade: new spell Assassinate (exori max sica, level 200). One heavy strike on the enemy next to you that always counts as a backstab, every 18 seconds.
+
+### Changed
+
+- The Exaltation Forge has been reworked and has a new window. Instead of fusing two copies of an item, you now enhance a single item with essences, gold and, at higher tiers, exalted cores. Each tier is harder to reach than the last.
+- From forge tier 4, a failed enhancement drops the item one tier, unless you protect it by paying double the gold or spending an extra exalted core. Below tier 4 a failure only costs the materials.
+- Moving a forge tier to another item now costs gold and essences instead of dust, and the item's forge upgrades move along with it. The item giving its tier is still destroyed.
+- Forge dust is no longer used and monsters no longer give it. The dust you have, including the dust you spent raising your dust limit, turns into gold in your bank the next time you log in.
+- Imbuing has been replaced by gems. Imbuement scrolls no longer work and are no longer sold, and imbuements still on your items are removed, without a refund, the next time you log in or equip the item.
+- Finding a hunting ground, village, island or landmark now shows a small notice coloured by the kind of place instead of the big city banner. Several finds close together share one notice, and boss lairs are only written into your journal so nothing pops up during a fight.
+- The champion statues have been taken out of the Thais temple for now; they will return at a later date. Town criers still tell you who the champions are.
+- The Rookgaard tutorial now follows one clear path: walking and talking, the village, then Huntsman Fargas's first task. Tips about using things, fighting and looting only appear once you have a task and something to fight.
+- The tutorial arrow on the map is much larger, brighter and bounces more, so it is hard to miss.
+- Huntsman Fargas's tasks: the route card now appears as soon as you accept a task, and its arrow leads you step by step: the stairs to Fargas, the sewer grate for the rats, the way back up, and the stairs again. Each of those spots is also marked on the map itself.
+- Huntsman Fargas's bug task now leads to the loose stone pile north of the village, explains how to open it with a shovel and how to leave with a rope, and marks a safe square to fight from so the bugs cannot surround you.
+- Arriving on the mainland, the tutorial now sends you straight to the Adventure Guide and then to the daily and weekly tasks, before it explains your vocation, your spells and the layout.
+- Adventure Guide: the rotworm caves near Thais and Edron are now recommended from level 12 and listed after the troll caves, because rotworms hit too hard for a character fresh off Rookgaard.
+- Druid beast forms hit much harder: Rend, Maul, Pounce and the Primal Avatar's Stampede deal about 2.4 times their old damage, so the beast moves are worth using next to your ordinary spells.
+- Beast Hide is stronger. Wolf Form's hide now absorbs 80%, 90% or 100% of a Magic Shield by rank (was 35%, 45%, 55%), Bear Form's 115% or 130% (was 85%, 100%) and the Primal Avatar's 175% (was 150%).
+- Shifting into a beast form can grant a fresh Beast Hide every 14 seconds, the same wait as Magic Shield (was 20 seconds).
+- Druid: the Elemental Synthesis stance now also strengthens the beast moves (Rend, Maul, Pounce and Stampede), which got nothing from it before.
+- Sorcerer: Tempest calls down more lightning on bigger groups. It now strikes two to four bolts every half second, depending on how many enemies are around you (up to 24 bolts, was always 12), still at most 3 per enemy.
+- Monk: Tiger's Fury comes back sooner (10 seconds of rest instead of 15) and its extra claw on every basic attack hits for 75% of the attack (was 50%).
+- Paladin: Oathbreaker now makes every basic attack strike a second time with death damage, for 20%, 28% or 35% of the attack by rank. Like your other death damage, it drains life.
+- Nightblade: Cutthroat and Eviscerate deal 20% more damage, and Eviscerate is ready again after 6 seconds instead of 10.
+- Nightblade: Ambush hits twice as hard and is ready again after 12 seconds instead of 14. Dagger Storm deals 20% more damage.
+
+### Fixed
+
+- Upper, Middle and Lower Spike can now each be discovered separately.
+- The Launcher now shows how many players are online next to "Server online" more reliably, and no longer drops the number when the server is briefly too busy to answer.
+- Rain now falls at a steady pace. It no longer races, stalls or seems to rise when you walk north or south, and it no longer streams sideways while the weather changes.
+- The "World First" banner is now easy to read: its caption is now dark lettering on an ivory plate instead of pale gold on gold, and banners without a picture no longer have a glow washing out their text.
+- Adventure Guide: "Coming up" is no longer empty for high-level characters. It now lists the things you haven't done yet that didn't fit in the short list above, followed by what opens at later levels.
+- The Oracle's vocation window can now be reopened after you close it: say hi to the Oracle again, or ask for the vocations. Before, you had to walk away and come back.
+- Vocation window: the Sorcerer and Druid now face the wave they cast and stand right behind it, the Monk wears the Monk outfit, and the Monk, Reaver and Nightblade show spells they really have (Flurry of Blows, Eldritch Sweep, Blade Fan).
+- Adventure Guide: it no longer says "1 done" right after you arrive on the mainland. Only milestones you have completed are counted.
+
+<!-- /vestara-client:0.21.0 -->
+
 <!-- vestara-client:0.20.0 -->
 <!-- source-archive-sha256:526b607a7da9c5544dae22dd78312a34d2823b33fb7cc4d89e841adb194f4a5f -->
 <!-- source-content-sha256-v1:8873922d9602ce5e08ffc2dcd91fecb812e8282f34c6292f7e63d32f6e932126 -->
