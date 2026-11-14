@@ -4,6 +4,37 @@ Published player-client updates, newest version first. Dates are the UTC release
 
 <!-- vestara-client-history:v1; maintained by the publisher -->
 
+<!-- vestara-client:0.25.0 -->
+<!-- source-archive-sha256:9127309f437600fe638bd141832f7540c577e3e2c85bed0c2182ca0479db561a -->
+<!-- source-content-sha256-v1:0897dd713b8b083a934fb643082125d345dde1bdea9ea6a196f02d02317af00e -->
+## 0.25.0 — 2026-11-14
+
+Client update
+
+[Release and downloads](https://github.com/Vick-Tibia/vestara-downloads/releases/tag/client-0.25.0)
+
+### Added
+
+- A new vocation: the \*\*Occultist\*\*, chosen at the Oracle and promoted to \*\*Warlock\*\*. Occultists are death mages whose kills rise as their minions, and how a monster dies decides what it becomes: a curse makes a mage, a bone spell a guard, a piercing shadow spell an archer. Every blow your minions take is paid from your mana, so a big army leaves you less to protect it. Sacrifice a minion before it falls for a burst of power.
+- Occultist spells: Wither from the start and Drain Life at level 8, then Hex, Bone Wave, Soul Lash, Blood Siphon, Plague, Void Spike, Death Grasp, Wraith's Call and the big area spell Grave Tide at level 100. Detonate sacrifices a minion for a burst of death, Corpse Explosion blows up a corpse on the floor, Blood Pact trades health for mana, and at level 150 Wyrmcall raises an undead dragon.
+- Warlock stances, once promoted: Dark Communion (your minions deal 10% more and you 4% more, but keeping them alive costs 10% more mana) or Bone Shroud (8% less damage taken, 5% less damage dealt).
+- From level 51 the Warlock has its own mastery tree: Legion (more and stronger minions), Hex (curses and bleeds that spread), Pact (a cheaper tether and a stronger Blood Pact) and Blood, crowned by the Gravelord, Plaguebringer and Hemomancer capstones. Blood Oath turns the Warlock into a blood mage without minions: every spell changes, costs health instead of mana and builds Bloodlust for more damage.
+- Occultists use the Sorcerer's wands and all mage armour, drink the mages' potions, heal with the Sorcerer's healing spells and summon their own familiar. The Sorcerer spell teachers teach their spells: ask them about warlock spells. Warlocks get their own accursed versions of the Sorcerer's endgame gear, with set bonuses for Vitality, Intelligence and minion damage.
+- The Warlock has its own Wheel of Destiny on the Sorcerer's layout, with its own spells and three revelations: Death Toll (a death hit on everything around you, harder on cursed or bleeding monsters), Avatar of Death and Necromantic Mastery (stronger minions). Its own crafting gem, Soul Anchor, makes hits on your minions cost less mana.
+- The Cyclopedia badge for having every vocation on your account now also needs an Occultist: accounts that had it lose it until an Occultist on the account reaches the required level.
+- 70 new gems. Every vocation gets gems that change its own spells and skills: longer Windfury chains, a third Split Arrow, an extra Chain Lightning arc, more Shatter shards, a stronger Raking Combo, slower fading Souls, more Static stacks, a wider Collapse and more.
+- New gems for every vocation too: attack speed on a kill streak, against a lone enemy or when hurt; more damage against low-health targets, bosses and fresh targets; overkill that spills onto the next monster; ice, energy, earth, holy and death conversion; banes and wards against dragons, demons, undead and magical creatures.
+- Spell, defence and support gems: shorter long cooldowns, cheaper attack spells, a free empowered spell every 8th cast, a cleanse, shorter paralysis, standing-still armour, thorns, faster regeneration, speed out of combat, a party damage banner, stronger heals on others and a gem that lets a tank take part of a friend's damage.
+- Two gems of which only the best copy counts: Avatar's Spark casts your next attack spell twice every 90 seconds, and Rampage rewards 15 kills in 20 seconds with more damage and attack speed. Five corrupted moonsilver gems with big upsides and a real cost drop only in moonsilver areas.
+- 14 new resonances: put the right two gems in one item for an extra bonus. Ask the Gem Cutter for the full list.
+
+### Changed
+
+- Gems now favour your vocation: part of the gems that drop for you are your own vocation's gems, and gem shrine rerolls, token trades and Task Board gems never give you another vocation's gem.
+- Intelligence now also makes your summons hit harder: familiars, the Reaver's abomination and every other summon gain a little damage for each point of Intelligence you have.
+
+<!-- /vestara-client:0.25.0 -->
+
 <!-- vestara-client:0.24.0 -->
 <!-- source-archive-sha256:50d940ea6f1852b125cf37440537eb9b8c1b86adafd12c4b2bd940234c1f8211 -->
 <!-- source-content-sha256-v1:1fd7baeca05798081be9272adace008cde7ec3aed6ef75151a22ab12f9e561c0 -->
