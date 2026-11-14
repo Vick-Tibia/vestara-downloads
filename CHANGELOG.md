@@ -4,6 +4,43 @@ Published player-client updates, newest version first. Dates are the UTC release
 
 <!-- vestara-client-history:v1; maintained by the publisher -->
 
+<!-- vestara-client:0.24.0 -->
+<!-- source-archive-sha256:50d940ea6f1852b125cf37440537eb9b8c1b86adafd12c4b2bd940234c1f8211 -->
+<!-- source-content-sha256-v1:1fd7baeca05798081be9272adace008cde7ec3aed6ef75151a22ab12f9e561c0 -->
+## 0.24.0 — 2026-11-14
+
+Client update
+
+[Release and downloads](https://github.com/Vick-Tibia/vestara-downloads/releases/tag/client-0.24.0)
+
+### Added
+
+- The Imbuement Assistant is now the Gem Cutter: she buys spare gems (from 500 gold for a chipped gem to 60,000 for a radiant one), explains sockets and resonance, and can appraise the resonances of the gear you carry.
+- The Imbuement Tracker is now the Gem Tracker: it shows the gems you wear and how strongly each counts after duplicates, your active resonances, and when Last Rite, Last Stand and Martyr's Ward are ready again.
+- In the forge's Sockets tab, gems that would make a resonance with a gem already in the item are marked, and the tab lists every resonance pair.
+- New tutorial tips explain essences, the forge, upgrades, tier protection, gems, gem shrines, resonance and socket tools the first time you come across them.
+- 11 new achievements for the forge and gems, from Apprentice Smith (your first enhancement) to Forgemaster (forge tier 9), plus the Crown Jewel feat.
+- Gem resonance: two gems in the same item can now work together and unlock a bonus, shown in gold in the item's Sockets section. Nine to start, for example Searing Wounds (Hemorrhage and Ember: your bleeds also burn), Kindled Volley (Ricochet Lens and Ember: bounces also burn) and Undying (Last Rite and Martyr's Ward: after Last Rite saves you, you get the shield at once).
+- A resonance is as strong as the weaker of its two gems, and the same resonance on more than one item only counts once.
+- Chronomancer: whenever Delayed Time catches up with a monster by itself, you move 10% faster for 3 seconds. It refreshes with the next catch-up and adds to your other hastes.
+- Chronomancers can now learn Strong Haste (utani gran hur) at level 20, like Sorcerers and Druids.
+- The forge now shows what happened to your item: a golden burst when an enhancement succeeds, a shudder and a puff of smoke when it fails (with a crack when the item loses a tier), and salvaged gear shakes, breaks apart and disappears.
+
+### Changed
+
+- Chronomancer: the spenders come much earlier, so you can collapse Delayed Time from the start. Collapse is now learned at level 12 (was 30) and costs 40 mana, Paradox at level 40 (was 60) and costs 140 mana.
+- Chronomancer: Sundial Strike is now learned at level 65 (was 80), and Dilation Field hits harder, so the levels between 55 and 80 keep up with the Sorcerer.
+- Gems, prism shards, jeweler's augers and mythic forge slivers no longer drop for characters without stamina, like other loot.
+- Salvaging now clearly warns you when the item has a forge tier, forged upgrades or epic or better rarity, and the first enhancement that could drop an item a tier asks you to confirm. Removing a gem shows its fee on the button.
+- Salvaging an item with gems in it now tells you beforehand that its gems come back to you unharmed.
+
+### Fixed
+
+- Chronomancer: Hour Wave and Clock Hand now deal damage. They hit nothing before; they now strike in front of you, in the direction you face.
+- Skills that are slow to train for your vocation no longer stop at 37. This affected club, sword, axe and distance fighting for mages and characters without a vocation, club, axe and distance fighting for Reavers, and other skills with the same training speed. Characters that were stuck there can train on normally.
+
+<!-- /vestara-client:0.24.0 -->
+
 <!-- vestara-client:0.23.0 -->
 <!-- source-archive-sha256:4437945c0934175701a960e59eea55a980f32a1acc770e02c7bcc2aae92f7bbf -->
 <!-- source-content-sha256-v1:8fe92ff7ab5be5d6c91c3eb35c219cebad4e8c5b39490c01cc000e8e253c904b -->
