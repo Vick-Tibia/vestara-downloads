@@ -4,6 +4,43 @@ Published player-client updates, newest version first. Dates are the UTC release
 
 <!-- vestara-client-history:v1; maintained by the publisher -->
 
+<!-- vestara-client:0.23.0 -->
+<!-- source-archive-sha256:4437945c0934175701a960e59eea55a980f32a1acc770e02c7bcc2aae92f7bbf -->
+<!-- source-content-sha256-v1:8fe92ff7ab5be5d6c91c3eb35c219cebad4e8c5b39490c01cc000e8e253c904b -->
+## 0.23.0 — 2026-11-14
+
+Client update
+
+[Release and downloads](https://github.com/Vick-Tibia/vestara-downloads/releases/tag/client-0.23.0)
+
+### Added
+
+- Elite and Mythic monsters now have 18 different traits, such as Vampiric, Volatile, Warded, Blinking and Gilded. Their traits are written above them in their tier's colour, so you can see what you are up against before you attack. The battle list tooltip and looking at the monster explain each trait.
+- Stronger Elites can have up to three traits and stronger Mythics up to four; in starter hunts they have one simple trait. Traits are minor (more health, faster, poison) or major (they change the fight), and a monster never has more than two traits that raise its damage. The harder its traits, the more experience, loot chance and item rarity it gives; looking at it shows what its traits are worth.
+- Collection Log: a new window (in Progression) with a slot for every rare drop of ordinary monsters, the unique drops of lever bosses and other bosses, the Elite and Mythic backpacks and the raid trophies. A slot fills the first time you get the item yourself.
+- A new Collection Log slot gets its own pop-up, a journal page that opens with the item pressed into it and a wax seal, and its own sound. It always shows at the top: other banners that appear at the same time line up below it instead of overlapping.
+- The Collection Log has bad luck protection: the longer a monster or boss gives you nothing new for your log, the better your chance of one of its missing items. Elite and Mythic backpack drops are always one you are still missing.
+- 25 new achievements: 14 for defeating Elite and Mythic monsters with many, dangerous or different traits, 10 for your Collection Log (first slot, 10 and 50 slots, every backpack, finished boss pages and filling 25%, 50%, 75% and 100% of it) and one secret one.
+- A new vocation: the \*\*Chronomancer\*\*, chosen at the Oracle and promoted to \*\*Chronarch\*\*. Chronomancers are mages who bend time with holy magic. Every spell they land leaves Delayed Time on the monster: a few seconds later it hits again by itself, or the Chronomancer collapses it early for more damage. Collapse before the monster dies, or the delayed part is lost.
+- Chronomancer spells: builders from level 8 (Tick, Hour Wave, Clock Hand, Time Ripple, Sundial Strike and the big area spell Temporal Cascade at level 100), spenders that collapse Delayed Time (Collapse on one monster from level 30, Paradox on everything around you at 60), and control spells that slow what chases you (Slow Time, Dilation Field).
+- Rewind (Chronomancer, level 45) takes you back to where you stood a few seconds ago and heals the health you lost since, up to 30% of your maximum health.
+- Chronomancer stances, once promoted: Overclock (8% more damage dealt, 10% more damage taken) or Borrowed Time (a quarter of every hit you take arrives over the next 4 seconds instead of at once, and a fifth of that part never arrives; 5% less damage dealt).
+- From level 51 the Chronomancer has its own mastery tree with three paths, Delay (more time in every pool, for packs), Dilation (slows that pay off) and Haste (faster fuses, spenders and mana), plus Sand nodes for Rewind on any path, crowned by the Epoch Weaver, Stillkeeper and Quickener capstones.
+- Chronomancers use the Sorcerer's wands, the Druid's rods and all mage armour, drink the mages' potions, heal with the Sorcerer's healing spells and summon their own familiar. The Sorcerer and Druid spell teachers teach their spells: ask them about chronomancer spells.
+- A new red gem for Chronomancers: Temporal Weight makes the damage you store as Delayed Time up to 15% higher. It drops like the other gems, most often from magical and extra-dimensional creatures.
+- The Chronomancer has its own Wheel of Destiny on the Sorcerer's layout, with its own spells and three revelations: Time Fracture (collapses every Delayed Time around you at once), Avatar of Time and Temporal Mastery (more of every hit is held back in Delayed Time).
+
+### Changed
+
+- The Cyclopedia badge for having every vocation on your account now also needs a Chronomancer: accounts that had it lose it until a Chronomancer on the account reaches the required level.
+- Elite and Mythic monsters are now as tough as the creature they are: Elites and Mythics in starter hunts are much easier than before, and only stronger creatures can roll the most dangerous traits. Mythics still appear everywhere, starter hunts included.
+
+### Fixed
+
+- The login screen and the Launcher now show how many adventurers are online on the live server. The count was already there, but the live server never answered the question.
+
+<!-- /vestara-client:0.23.0 -->
+
 <!-- vestara-client:0.22.0 -->
 <!-- source-archive-sha256:50ec432ce3a2767b5681c49caf065a78c3add5c37318bb2c9c5119429c74a1df -->
 <!-- source-content-sha256-v1:b365b54ef42a7c9451b4d5cd241e6650c0194f73ec36f8864b7df5620a65e9f8 -->
