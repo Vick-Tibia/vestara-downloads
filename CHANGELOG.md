@@ -4,6 +4,66 @@ Published player-client updates, newest version first. Dates are the UTC release
 
 <!-- vestara-client-history:v1; maintained by the publisher -->
 
+<!-- vestara-client:0.26.0 -->
+<!-- source-archive-sha256:9044ddc14d8227e57370544896c6150c46611d36536f47e87d090062166e8ea1 -->
+<!-- source-content-sha256-v1:12ab1611a50829e988f4e285eb894717634700b4a1cf3e6cac678816ad54d114 -->
+## 0.26.0 — 2026-11-15
+
+Client update
+
+[Release and downloads](https://github.com/Vick-Tibia/vestara-downloads/releases/tag/client-0.26.0)
+
+### Added
+
+- The beta race: six permanent Beta titles, each for the next three accounts to do it. Beta Frontrunner (reach level 200), Beta Vanguard (reach level 500), Beta First to the Feast (defeat Ironjaw), Beta Sealbreaker (defeat Ferumbras), Beta Myth Made Real (find a mythic item) and Beta Chosen (find a divine item). For the raids, a place goes to a whole party. Say !betatitles to see which places are still open.
+- Beta titles stay with your account for good. Beta Pioneer and any beta race title you win are given to every character on the account, including characters you make after the beta ends.
+- 59 new titles to earn from achievements. Your first, Rookie Adventurer, comes when you leave Rookgaard. The rest are for real feats, such as Monster Hunter (25,000 kills), Deathless (level 100 as a Hardcore character), Table for One (Ironjaw on your own) and The Completionist (a full collection log). Achievements you already have give their title the next time you log in.
+- The Achievements window now says which achievements give a title. A few secret achievements hide a title of their own.
+- New Grandmaster achievement, Solo Bolo: defeat Ferumbras on your own. It gives the title Ferumbras Solo Bolo.
+- Titles are now shown above your character's name for everyone nearby. Open the new Titles window (in the Character buttons, or say !titles) to wear one of the titles you hold, or to take it off again.
+- Titles are coloured by how rare they are, in the colours of item rarities: from grey Common titles such as Trolltrasher (level 50) through green, blue, purple and orange up to red Mythic and white Divine ones such as Exalted (level 1000) and Eternal. The Titles window lists yours, rarest first.
+- Prefer a quieter screen? Untick "Show the titles of other players" in the Titles window. Your own title stays visible to you and to everyone else.
+- Warlock army preference: Occultists and Warlocks can set the army they want in the spellbook (bottom left): how many warriors, guards, archers and mages. While an army is set, every monster that rises fills it, whatever spell you used. Clear it to go back to Auto.
+- Monsters a Warlock has hit now show a small icon of the minion they would rise as if they died now.
+- New gear line: Minion Damage (up to 8%), for Warlocks who build around their minions. It rolls on wands, spellbooks, helmets, armour, amulets and rings that Warlocks can wear.
+- Warlocks now see their minions as small icons above their character, one per kind (warriors, guards, archers, mages and the Undead Dragon) with how many of each are up. Like the other stack icons, each can be set to Mine, Everyone or Off.
+- New option: Summon names (Options, Interface). Turn it off to hide the names above summons such as Warlock minions and familiars; their health bars stay.
+- Shadow Sprint (Nightblade, level 20, utani sica): the Nightblade's own haste. For 20 seconds you run a little faster than a mage's Strong Haste, for 80 mana.
+- New Calendar window (in the Progression buttons): see this month's events, weekend bonuses, weekly raid resets and today's boosted creature and boss, and claim your daily reward from anywhere in a protection zone, such as a temple or depot. The calendar shows server time, so everyone sees an event on the same day.
+- Daily rewards are now a monthly track that fits the month (28 to 31 days). Every day you claim takes you one step along it, and missed days never set you back. Rewards grow through the month, from potions, runes, prey wildcards and exercise weapons to Resonance Gems, socket gems, prism shards, jeweler's augers, Affine Exchange Gems and an Alloy Reforge Gem.
+- The last day of the month holds the grand reward: choose a Rarity Ascension Sigil or a flawless gem in the colour you want. Claim every day of a month to earn the new titles Faithful (1 month), Steadfast (3), Devoted (6) and Evergreen (12).
+- Missed a day? A Daily Reward Catch-up from the store claims a missed day on top of today's reward, up to 2 a month.
+- New Mentor window (in the Social buttons). Veterans of level 50 or higher get a mentor code to share; a new player enters it before level 30 and becomes their recruit.
+- Mentor and recruit are both rewarded when the recruit reaches levels 20, 50 and 100: a cape for each of you at every step (Scholar Capelet, Academic Gown Cape, Banner Sigil Cape) plus bonus experience, prey wildcards, campfire kits, a Resonance Gem and an Affine Exchange Gem. Claim them in the Mentor window.
+- Mentors earn a badge that grows with recruits who reach level 100: the titles Mentor (1 recruit), Trusted Mentor (3) and Grand Mentor (10). A mentor can guide up to 10 recruits at a time; mentor codes only work for new accounts.
+- Hardcore characters: pick the Hardcore mode when you create a character. A Hardcore character has one life and is self-found. On its first death it becomes a normal character for good and keeps everything it has.
+- Hardcore rules: no trading, market, parcels, letters, bank transfers or blessings; only cosmetics and services from the store; no taking items other players leave on the floor or in houses, and no looting kills that are not yours or your Hardcore party's. Raids are open to everyone: Hardcore characters can raid with normal characters.
+- Hardcore characters cannot attack or be attacked by other players, unless both are in guilds at war with each other. In a party with normal characters they gain no experience outside raids.
+- Say !hardcore to see the Hardcore ladder and the memorial of fallen characters. Everyone online is told when a Hardcore run ends. New achievements for reaching levels 20, 50, 100 and 200 as a Hardcore character.
+- Legacy rank: the achievement points and Collection Log slots of all characters on your account add up to an account rank, from Newcomer to Eternal (10 ranks). Characters are counted from their next login.
+- Legacy ranks unlock for every character on the account: a title for each rank, four capes (Plaid Travel Cloak, Rune Banner Cape, Royal Ermine Cape, Starry Night Cape) and 5%, 10% and 15% off boat and carpet fares. Other players see your rank when they look at you.
+- Shrines of Legacy: the shrines in depots show your rank, your next perks, your characters, your world firsts and the Hardcore memorial. A shrine in a house shows its owner's legacy to visitors. You can also say !legacy.
+- Boss hard modes: pulling a boss lever now opens a window to choose the difficulty: Normal, Hard or Nightmare with one click, or tick up to 4 Elite traits yourself and the boss has exactly those. Everyone who goes in with you is told before the fight, and the boss shows its traits over its head. Pulling the lever a second time starts a normal fight straight away.
+- Hard mode pays the whole team: more experience, a higher loot chance and better item rarity, and more the harder the combination (up to +150%). Majors pay more together than apart. At most 2 traits may raise the damage you take, and four traits always include a minor one.
+- Raids and dungeons have hard modes too: when the party leader queues, the same difficulty window opens. The ready check shows the traits before anyone accepts and every boss of the run has them. Winning gives that much more experience and gold and that much better odds on the raid's items, rare items and mount; from +40% the equipment is rare or better, from +100% epic or better.
+- Hard mode stays with bosses that change shape during the fight, such as Anomaly, Ferumbras, Urmahlullu or the Thorn Knight: every form has the traits you chose, and the kill counts when the last form falls. Hard and Nightmare now use traits that matter on a boss (more health and damage, healing from its hits, mana drain, rage at low health). Regenerating is no longer offered for bosses, and Frostbound is not offered in Ashes of Ferumbras.
+- Every raid has a Nightmare reward of its own: a cape and a title on your first win at Nightmare or harder. The Ironjaw Feast: Fur Pelt Cape and Uninvited Guest. Ashes of Ferumbras: Rune Ring Cloak and Ashwalker. The False Ascension: Solar Ruff Cape and Lightbreaker.
+- Seven new achievements for defeating bosses in hard mode, up to Grandmaster for 25 kills with four traits.
+
+### Changed
+
+- Warlock minions: the last spell you hit a monster with now decides what it rises as, not the killing blow. Hits from your minions, your wand and damage over time no longer change it, and a curse no longer always wins: cast the spell for the minion you want last.
+- Detonate (Warlock): the sacrificed minion now yells, charges into your target and explodes when it reaches it, instead of exploding where it stood. Without a target it still explodes on the spot.
+- Instant Reward Access is retired and has become the Daily Reward Catch-up. Unused Instant Reward Access charges and daily reward jokers are gone. The Daily Reward Shrines are no longer sold in the store; the reward shrines in depots and houses are now Shrines of Legacy.
+- Missing a day now resets your resting-area regeneration bonuses, as there are no more jokers. Your place on the monthly reward track is kept.
+- Occultists and Warlocks can now cast Strong Haste, like every other mage.
+- The Intelligence tooltip in the attribute window now also shows how much extra damage your summons get from your Intelligence.
+- New characters now start on Rookgaard wearing their starter equipment (club, shield and armour) instead of finding it in their backpack. The same goes for the gear the Oracle gives you for your new vocation: it is put on straight away, and what you were wearing moves into a new backpack with your supplies, so nothing is lost.
+- Cipfried now offers his 5 bonus attribute points as soon as you greet him: just say yes. If you leave Rookgaard without them, the Oracle hands them over, and characters who already left without them get them the next time they log in.
+- On Rookgaard, reaching level 8 now brings you to the Oracle straight away, even in the middle of a fight. This only happens to characters without a vocation.
+
+<!-- /vestara-client:0.26.0 -->
+
 <!-- vestara-client:0.25.0 -->
 <!-- source-archive-sha256:9127309f437600fe638bd141832f7540c577e3e2c85bed0c2182ca0479db561a -->
 <!-- source-content-sha256-v1:0897dd713b8b083a934fb643082125d345dde1bdea9ea6a196f02d02317af00e -->
