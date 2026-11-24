@@ -4,6 +4,103 @@ Published player-client updates, newest version first. Dates are the UTC release
 
 <!-- vestara-client-history:v1; maintained by the publisher -->
 
+<!-- vestara-client:0.27.0 -->
+<!-- source-archive-sha256:b51fae61dc8091600fc12d7fb765d68d3c1d13b22974f82fffea264be3ec78b0 -->
+<!-- source-content-sha256-v1:c674ffb1ad2adbf2b929fd4278b3dd0877e2c71fb9be604f17f570e75f6bcca9 -->
+## 0.27.0 — 2026-11-24
+
+Client update
+
+[Release and downloads](https://github.com/Vick-Tibia/vestara-downloads/releases/tag/client-0.27.0)
+
+### Added
+
+- Homestead: your house becomes a working home. Open the new Homestead window (house button) for a summary of your house, your hirelings, your banked hireling work time, your storage, and what needs your attention.
+- Your first hireling is free: own a house or live in one as a housemate, open the Homestead window inside it, place a bed, then name your hireling and claim it.
+- Hireling jobs: cook, smith, artisan, alchemist and gardener. Give a hireling a bed, a job and a work order in the Hirelings tab and it repeats one recipe you know from your homestead storage, slower than you would, even while you are offline. What it makes goes back into storage, and you earn a little profession experience from it.
+- Hireling work time is earned by playing: every hour you hunt banks four hours of hireling work, up to three days. A working hireling also needs gold in your bank for its wage.
+- Hirelings live in your house where everyone can see them: they walk between their station, your storage barrel and their bed, take the stairs and open doors. The Hirelings tab shows what each one makes, its progress, and why one is idle.
+- Manage a hireling from the Hirelings tab: rename it (Hireling Name Change in the store), change its outfit (ten plain outfits in any colours, plus store dresses for hirelings that stand still) or dismiss it for good.
+- Homestead stations: furniture sellers sell a storage barrel, kitchen, forge, artisan bench, alchemy bench, trophy hall, steward's desk and compost bin. Unwrap one in a house you live in; the Stations tab lists them and their upkeep.
+- Stations can be upgraded to tier 2 and 3 with crafted kits. Upgraded stations are bound to you and cost a small weekly upkeep; an unpaid station pauses and is never lost. Losing a house never loses stations: they go to your inbox.
+- A storage barrel raises your homestead storage from 1,000 to 5,000 goods, more at higher tiers.
+- Housemates: a house owner can take in other characters from the Housemates tab. They use the house and its stations and keep their own hirelings and storage. Removing a housemate takes three days' notice.
+- Portal nexus: a house station that takes you to cities and remote places you have found on foot, for about the price of a boat ticket. The Pocket Portal can be attuned to your house to take you home, with a 30-minute wait between trips.
+- Restoration font: a house station that refills your health and mana, and at higher tiers removes harmful conditions.
+- Professions: Mining, Herbalism, Skinning, Farming, Cooking and Crafting are new skills from level 1 to 100, beside Fishing. The new Professions window shows your levels, what you can gather and where, and a recipe book.
+- Gathering: ore veins and plant patches stand around the four homelands. Ore needs a pick in your backpack. Rich nodes glow near you and are marked on your minimap; a worked-out node recovers after a few minutes.
+- Skill checks: mining shows a timing bar (press Space or click as the marker meets the bright zone) and herbs are picked by holding and releasing inside a drifting band. You always get the material; a Perfect gives more experience, a Miss almost none. Better skill and tools widen the zone.
+- Streaks: Perfects in a row give up to three extra materials each and make the next bar harder. Every ten in a row gives a chunk of experience. A Miss, a minute without a strike, or stepping away from the bar ends the streak.
+- High-quality (HQ) materials, marked with a gold star, come from Perfect results. They work in any recipe; tick "Use high-quality materials first" to cut the failure chance, and a craft made wholly from HQ materials gives better results and more experience.
+- Work steadily: a switch in the Professions window turns the timing bars off. You then gather one common material every ten seconds for a quarter of the experience, with no rare finds.
+- Skinning: use a knife on the corpse of a mammal, reptile, amphibian, bird, dragon or werecreature and tap Space at each notch on the bar. The killer and their party skin first, and each corpse once. Bigger creatures give better hides; the old skinning finds still drop, more often with a clean cut.
+- Leatherworking at the artisan bench: tan hides into leather and make skinning knives, the gatherer's satchel, the angler's creel and the skinner's roll. Tool shops sell a basic skinning knife.
+- Crafting: use a forge or artisan bench in your house. Smelt ingots and make better picks, sickles and rods, the gear forge's essences, exalted cores, protection scrolls, prism shards, jeweler's augers, attunement stones and station upgrade kits.
+- From Crafting level 20 every recipe needs a rare part that only adventuring brings: a geode found while gathering, silver and gold from dangerous veins, or parts from Elite and Mythic monsters, bosses and raids. A failed craft keeps the rare part.
+- Some recipes are learned from recipe scrolls. A learned recipe is yours for good; a scroll you do not need can be traded.
+- New for the Exaltation Forge and gem shrines, made by crafters: forge flux (a tempering flux adds 15 points to one enhancement's chance, a masterwork flux makes it certain), jeweller's resin (combine two gems instead of three) and the gem cutter's kit (choose the gem a reroll gives).
+- The gear forge accepts a crafted protection scroll to keep an item's tier when an enhancement fails.
+- Gems now have their own pictures by colour and grade, from chipped to radiant.
+- Farming: work the garden of your house by hand. Dig a plot with a garden hoe, sow seeds from your seed pouch, water it with a garden watering can and harvest with a garden scythe. Crops grow while watered, even while you are offline.
+- Seeds and farming tools are sold by the furniture sellers. Seeds go into your seed pouch (100 of each kind) and a harvest sometimes gives one back. Better hoes, scythes and watering cans are made at the forge.
+- Watering and harvesting show a timing bar, new crops open as you level, and six rare crops can only be grown by your own hands. Your first 15 harvests each day give four times the Farming experience.
+- You can work up to 30 garden plots by hand, in your own house or one you live in as a housemate. A house owner can clear the garden of trees, bushes and stones with the right tools.
+- Hireling gardeners tend plots for you: use an empty plot, choose Gardener and pick a crop. A gardener sows, waters and harvests 12 plots (more at Farming 30, 60 and 100) and its harvests go to your homestead storage. Gardeners never grow the rare crops.
+- Garden stations: a compost bin makes fertiliser for one more item from a plot's next harvest, a sprinkler keeps nearby plots watered, and a scarecrow makes Perfect harvests give back seeds more often.
+- Garden decorations from the furniture sellers: hedges and topiary, shrubs, trees and a pet corner with dog beds, kennels, pools and toys. Finer pieces need a Farming level to buy.
+- Giant crops: from Farming 60 a Perfect pumpkin or melon harvest can grow a giant one, a decoration for your garden. Some crops grow a quarter faster in the right climate; looking at the plot tells you.
+- Offerings: some creatures, people and shrines want crops. Use an offering basket from a seed seller on them to earn favour; a full favour bar unlocks a reward such as a mount, an outfit or a garden decoration.
+- Fishing log: a new Fishing window lists 128 fish in 39 named waters. A caught fish shows its picture, bait and your heaviest catch; one you have not caught shows only its shape, its water and a clue.
+- Fishing now asks you to react: click the marker or press Space when a fish bites, then reel it in by holding and releasing to keep the fish inside your catch bar. Rarer and heavier fish fight harder. If you do not react you still catch a plain fish now and then.
+- Every named fish bites in its own water under its own conditions: time of day, weather, bait, rod and fishing skill. Choose your bait in the Tackle tab of the Fishing window.
+- Shoals appear now and then in a named water for ten minutes as a ripple everyone can see. Rare fish bite far more often there, and epic and trophy fish bite nowhere else.
+- A perfect catch lands a high-quality fish and gives double fishing skill progress. Rare, epic and trophy fish carry their weight, the angler's name and the day they were caught, and each fish's page shows the biggest catches on the server.
+- Twelve trophy fish stay a mystery in the fishing log until the first player lands one. A landed trophy is announced to the whole server and can be mounted as a wall plaque in your trophy hall.
+- New tackle: reinforced, deepwater and master angler's rods, and new baits: flies, ice jigs, spoon lures and glow lures (tool shops and Crafting) and grubs found while picking wild plants.
+- Weekend fishing contest every Saturday and Sunday: each species counts once at its best catch. The most points and the heaviest catch each win a title, a dated house trophy and rare tackle.
+- Sell your fish to any innkeeper from the Tackle tab: common and uncommon fish at a fixed price, rare and epic fish by weight.
+- Cooking: use the kitchen in your house to cook 40 meals. Simple dishes can also be cooked at any campfire or public oven; better dishes need fish, meat or garden crops and give one bonus for an hour of play.
+- One meal, one elixir, one weapon oil and one tonic can be active at the same time; the Cooking tab of the Professions window shows what is running and for how long.
+- Weapon oils, elixirs and tonics are made at the alchemy bench: an hour of extra damage, critical chance or life leech from an oil, the combat concoctions as elixirs, and tonics that help with gathering, fishing or profession experience.
+- Feasts: cook a feast from four of the same meal and lay it out beside a lit party campfire. Everyone in your party nearby gets that meal's bonus, a little stronger, for an hour.
+- Expeditions: send a hireling from an expedition lodge for 2, 4 or 8 hours to a region you have visited. It comes back with a pack of that region's ores and plants, sometimes a rare find; collect it from the Expeditions tab.
+- Guilds with a guildhall share goods from the new Guild tab of the Homestead window, can pay towards five levels of a hall upgrade that makes members' hirelings work better there, and share the hall's portal nexus and feast hall.
+- Factions: the Crown, Carlin, the Elder Folk and the Desert. Earn reputation by hunting in their lands, finishing Task Board tasks there and handing in tavern orders, and climb five ranks from Stranger to Champion. Open it from the new Chronicle window.
+- Tavern orders: every day each faction's innkeepers ask for one cooked dish that suits your Cooking level, for gold and reputation.
+- Faction rank rewards: buy recipe scrolls and house station kits (workbench, restoration font, expedition lodge and portal nexus) from Factions in the Chronicle window while you are in one of the faction's cities.
+- Diaries: up to forty tasks for each of the four lands in four tiers, from Easy to Elite. Each finished tier gives a title, reputation and perks there, such as cheaper boats and more from gathering.
+- Nemesis monsters: an ordinary monster that kills a player in a fair fight may rise as a named nemesis with Elite traits, announced to the whole server. It grows stronger with every kill and fades 12 hours after its last one. Slay it for a gold bounty.
+- New achievements, titles, Collection Log pages and diary tasks for every profession, including titles at level 100. Hover a skill's name in the Professions window to see its highscore.
+- The Task Board has one profession task a day beside the hunting tasks, and two of the weekly deliveries can ask for fish you are able to catch.
+- Gatherer's weekend: a new weekend event with 50% more materials from mining, herbs and skinning, shoals twice as often and 50% more profession experience.
+- The Adventure Guide and new tutorial tips introduce the homestead, professions, fishing, meals, factions, diaries and nemesis monsters, with small rewards for trying each.
+- Banners and sounds for professions: a first catch, a heaviest catch, a level that opens new recipes and long Perfect streaks show a banner or a small notice, and gathering, fishing and crafting have their own sounds.
+- The store has a new Homestead section under Houses: a storage barrel and a kitchen, 12 hours of hireling work time, a hireling name change, Garden Expansion (10 more plots) and Large Seed Pouch (300 seeds of each crop).
+- Every level up now shows a small "Level up" card with a sound, and every skill advance and magic level a smaller one. Milestone levels keep their big banner. Turn the cards off in Options \> Interface \> Moments.
+
+### Changed
+
+- Each hireling service you bought (banker, cook, steward, trader) is now a contract you can give to one hireling. Until you give a hireling a job, your hirelings keep every service you bought, as before.
+- The hireling cook contract now costs 250 coins, like the other contracts. If you paid 900, the 650 coins difference has been returned to your account.
+- On an account with several homesteads, the character you choose first gets everything its hirelings make; your other characters get 75%, 50% and then 25%. You can change the first character once every 30 days.
+- Jean Pierre's dishes and the gourmet dishes with a lasting bonus now count as your meal: they keep their bonus, last an hour of play and replace the meal you had. Dishes that heal at once are unchanged.
+- Combat concoctions now last one hour of play, only one can be active at a time, and they share a 10-minute wait instead of a day for each kind. Kooldown-Aid shares that wait.
+- Amplification concoctions now add their bonus together with your other damage bonuses instead of multiplying them, so characters with many bonuses gain a little less from them than before.
+- Hireling names follow the same rules everywhere: 3 to 18 letters with at most one space, and offensive words and staff titles are refused.
+
+### Fixed
+
+- A bed you place in your house no longer disappears when the server restarts.
+- Spaces in the game's interface text were so narrow that some labels ran together. They are now wide enough to see.
+- The Bank window no longer works at a hireling that has no banker service.
+- The Store button now brings the Store to the front when it is open behind another window, instead of closing it out of sight.
+- Several Adventure Guide rewards waiting at login now share one "Rewards ready" card, and reward cards no longer keep new tutorial tips from appearing.
+- Some windows (Exaltation Forge, Calendar, Mentor, Titles, Legacy, Boss hard mode, Discoveries and others) showed stray symbols instead of dots and dashes. They now show plain punctuation.
+- An item you receive is no longer lost when your backpack is full: a raid reward or a campfire kit that fits neither your backpack nor your store inbox is now put at your feet.
+- Selecting an item in the Exaltation Forge could leave the window on "Loading...". It now shows the item.
+
+<!-- /vestara-client:0.27.0 -->
+
 <!-- vestara-client:0.26.0 -->
 <!-- source-archive-sha256:9044ddc14d8227e57370544896c6150c46611d36536f47e87d090062166e8ea1 -->
 <!-- source-content-sha256-v1:12ab1611a50829e988f4e285eb894717634700b4a1cf3e6cac678816ad54d114 -->
