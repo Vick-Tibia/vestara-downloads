@@ -4,6 +4,88 @@ Published player-client updates, newest version first. Dates are the UTC release
 
 <!-- vestara-client-history:v1; maintained by the publisher -->
 
+<!-- vestara-client:0.28.0 -->
+<!-- source-archive-sha256:f6a990231226dcc2cc438901e84537b4db628f3d5f5fa14aea7f5acabb95c99d -->
+<!-- source-content-sha256-v1:4337d5d6a460a211ca2a44db3e0081c646d90629d4ece0ceb35d83fb320e59a5 -->
+## 0.28.0 — 2026-11-25
+
+Client update
+
+[Release and downloads](https://github.com/Vick-Tibia/vestara-downloads/releases/tag/client-0.28.0)
+
+### Added
+
+- All attribute perks are now in the game (the numbers are bought ranks), and the attribute tooltip marks the ones you have as active. Strength: Pack Mule (100) gives 10% more capacity, Shake It Off (250) makes drunkenness from monsters wear off 25% sooner, Pursuit (400) slows a fleeing monster you hit by 25% for 2 seconds, and Butcher (600) gives a 10% chance of an extra creature product from monsters you kill in melee.
+- Dexterity perks: Fleet-footed (100) makes you 10% faster out of combat, Careful Aim (250) gives a 15% chance to get the arrow or bolt back when a shot hits, Steady Aim (400) gives better hit chance on targets 4 or more squares away, and Long Stride (600) brings the extra speed back 5 seconds after your last fight, without waiting for the battle sign to go.
+- Arcane Magic perks: Thrifty Caster (100) gives a 10% chance not to use up a rune charge, Attuned (250) gives 25% more mana from wand and rod attacks, Second Nature (400) makes support spells 30% cheaper, and Arcane Sight (600) lets you see invisible monsters.
+- Nature Magic perks: Hardy Blood (250) gives each tick of poison or burning on you a 20% chance to end it, Mending Touch (400) makes healing a party member with a spell or rune also cure one damage-over-time condition, and Long Reach (600) lets your healing spells and runes reach one square further.
+- Vitality perks: Second Wind (100) gives back a little health every 2 seconds while you are fed and out of combat, Thick Skin (250) makes damage over time hurt you 15% less, Survivor (400) makes you lose 10% less experience and skills when you die, and Favoured (600) makes blessings 10% cheaper.
+- Intelligence perks: Clear Mind (100) gives back a little mana every 2 seconds while you are fed and out of combat, Efficient (250) makes support spells 20% cheaper (with Second Nature at most half price), Appraiser (400) makes NPCs pay 5% more gold for what you sell, and Tactician (600) gives a free prey wildcard every day.
+- Luck perks: Lucky Find (250) gives a 2% chance that a monster's gold is doubled, Second Chance (400) gives a 25% chance to get the gold back when a stone fails, and Fortune's Favour (600) gives one extra catch-up each month on the daily reward track.
+- Five level 270 amulets from Tibia 15.33: the flamingo amulets of valor (Knights, Reavers), precision (Paladins, Nightblades), destruction (Sorcerers, Chronomancers, Warlocks) and nature (Druids, Chronomancers), and the swan amulet of balance (Monks). They come from the Ferumbras raid. Cledwyn enchants one for 5 silver tokens (or use !refill), and an enchanted amulet gives its skills and protection for 3 hours of wearing.
+- The guardian ring from Tibia 15.33 can now come out of the first raid.
+- The task shop now also sells prey wildcards (5 for 800 points), the charm expansion (50,000) and the permanent third prey slot and third hunting task slot (75,000 each), so you can earn everything the Store sells for power by doing your daily and weekly tasks.
+- The Store sells wings and auras: 75 wings and 65 auras under Cosmetics, 870 Tibia coins each. The outfit window shows them moving, so you can see what you get before you wear them.
+- Some of the finest wings and auras can't be bought: each raid has its own, and a win can give you one you don't have yet, with a better chance after every win without one. The achievement milestones now give new wings too: Fern Frond, Frost Crystal, Ember Hawk and Mirror Pane Wings.
+- Chronomancers get their own endgame gear: golden aeonic versions of the soul, sanguine and moonsilver mage pieces (from level 400). They drop for Chronomancers in place of the Druid and Sorcerer pieces, shoot holy, strengthen Chronomancer spells, and pieces you already carry change into them when you log in, keeping their upgrades and affixes.
+- Aeonic sets: the soul, sanguine and moonsilver sets give Intelligence and Vitality, make Delayed Time store more of every spell hit (up to 5% more) and make Collapse and Paradox collapse harder (up to 20% more).
+- Druids can now change shape as part of their normal spells: Wolf Form (utani bestia) from level 35 and Bear Form (utamo bestia) from level 55, no mastery needed. In a form your attack spells, attack runes and Magic Shield are locked, a wolf or bear can't heal others, and your wand rests; you fight with claws and beast spells instead. Cast the form again to return. You can stay in a form as long as you like.
+- Wolf Form is for fighting one monster up close: a Monk's health, a claw every second, and Momentum. Rend (exori bestia) and Pounce (exevo bestia) build Momentum, Savage Flurry (exori gran bestia, level 60) spends it on a string of bites, and Pack Howl (utito bestia, level 90) makes you faster and lets you and your party deal 5% more for 8 seconds. Pounce is ready again at once when the monster you pounced on dies.
+- Bear Form is for tanking: a Knight's health, 15% less damage taken, and Grit, which builds when monsters hit you. Maul and Roar work as before (Roar now every 12 seconds); Thrash (exori gran bestia, level 75) hits everything next to you and turns your Grit into healing; Ironhide (utito bestia, level 100) cuts the damage you take by 30% for 6 seconds.
+- Vestaran caches: Elite monsters sometimes and Mythic monsters often drop a Vestaran cache. Open it for a piece of equipment from monsters of that strength, never common and sometimes much better. Caches only drop for characters near the monster's level (the gap is wider for stronger monsters, and endgame monsters drop them for everyone). A cache keeps the strength it was found at, and caches can be traded.
+- Trinkets: the arrow slot is now the trinket slot. Twenty trinkets, from a milk tooth at level 8 to a lit rift lamp at level 650, each with its own protection, regeneration or speed, and they roll rarity and affixes like other equipment. They drop rarely from fitting monsters (more often from Elites and Mythics), can come out of Vestaran caches, and every raid can give one.
+- Trinkets from level 100 up have an active effect: use them from the trinket slot for a heal, mana, a burst of speed, a slow, an earth blast, or a trade-off like more damage dealt and taken for a while. Each has its own cooldown, and two trinkets can't be used within 10 seconds of each other.
+- The moon mirror, starlight vial, sun catcher, bone fiddle and conch shell horn are trinkets now: they keep their protection and roll rarity like the others. Arrows and bolts no longer fit the arrow slot; keep them in a quiver.
+- Skill passives: from 60 in a weapon skill your hits with that weapon deal 1% more, rising to 6% at 120 (2% at 80, then 1% more every 10). Magic level does the same for spells: up to 6% for mages, up to 3% for paladins and monks and 2% for the others, scaled to how fast each reaches magic levels. Shielding gives a 1% to 6% chance to block a melee or ranged hit completely.
+- Action bar profiles: keep a different set of action bars for each mastery build. Right-click an action bar slot to make a new profile (a copy of the bars you have), switch between profiles, rename or delete them. Each character has its own profiles, and you can set a key to step through them in the hotkey options.
+- Quest markers: NPCs now show a ! when they have a quest or task for you to start, and a ? when you have a task ready to turn in to them. Everyone sees their own markers. You can turn them off in the options (Interface, "Quest markers beside NPCs").
+- Druids get a third shape: the Grove Guardian (utura bestia, level 80), a leaf golem that heals. It is slow and cannot attack, but it keeps Heal Friend, Nature's Embrace and Mass Healing. Standing still builds Sap, up to 5; each Sap makes your heals on other players 4% stronger, and every step loses one. It has a Monk's health; attack spells, attack runes and Magic Shield are locked as in the other forms.
+- Grove Guardian moves: Lash (exori bestia) roots a monster within 4 squares and weakens it. Pollen Burst (exevo bestia) heals you and party members within 3 squares over 6 seconds. Sheltering Canopy (exori gran bestia, level 90) makes you and party members within 2 squares take 15% less damage for 5 seconds. Deep Roots (utito bestia, level 110) roots you in place for 6 seconds with full Sap and 30% stronger heals on others.
+- Druid masteries: a fourth attunement, Ancient Grove (the Grove Guardian gathers Sap faster; at rank II Pollen Burst cures poison and bleeding), and a fourth capstone, Heart of the Grove (Deep Roots covers every party member in sight with a ward of up to 8% of their health). Permafrost now also makes Wolf Form's Rend chill monsters, and Blight makes monsters that hit your Bear Form poisoned and lets Maul root them.
+
+### Changed
+
+- The Store no longer sells potions, runes, casks, kegs or blessings: NPCs sell them for gold, and !bless still works. The Global Elite Boost Token is gone from the Store too.
+- Global experience, loot and skill boost tokens now cost 100 coins. Each boost can be queued for at most 6 hours; a token that would go past that stays in your backpack until it fits.
+- The old tournament items are in the Store for everyone at lower prices: the Cerberus Champion and Jousting Eagle mounts and the Dragon Slayer and Lion of War outfits under Cosmetics, and the baby pets, dolls, gilded replicas and furniture under Houses \> Collectibles.
+- The old wings are gone; they never sat right on every outfit. If you had earned achievement wings, you get their new versions when you log in.
+- Training weapons: exercise shields are gone, because every training weapon now trains your shielding too. A shield you still have becomes the exercise weapon of your vocation (with its charges) when you use it.
+- NPCs no longer sell training weapons for gold. Trainers and shops sell them only to Champions of their land, for gold or silver tokens: 35 for an exercise weapon, 125 for a durable one, 1000 for a lasting one. Say 'training weapons' to them. The Store still sells them.
+- Reaver, Blightbringer: a poison you keep at full stacks now bursts every 8 seconds at half strength without ending, so the capstone also works on the monster you keep hitting and on bosses. Before, the burst only came when the poison ran out.
+- Nightblade, Shadowdancer: while you fight a boss, the empowered backstab with its 2 extra Marks comes back by itself every 10 seconds. Before, it needed a kill, so it did nothing in a boss fight.
+- Paladin, Oathbreaker: the second, death-damage strike of your basic attacks now also hits up to 2 monsters standing next to your target.
+- Druid masteries, Wilds: the Wolf Form and Bear Form nodes are now Pack Hunter (Rend hits more monsters, Momentum lasts longer) and Ursine Bulwark (a wider, longer Roar, and party members next to your bear take up to 10% less damage). Feral Frenzy now gives Momentum back after a Savage Flurry and makes Thrash heal more. Beast Hide is gone: a form gives you more health instead. Every Druid's mastery points were refunded for a free respec.
+- Druid masteries, Ice: Frostbite no longer adds critical chance. Instead your ice spells deal up to 3% more for each Chill on the monster, and when a chilled monster dies its Chill jumps to the nearest monster, so a kill no longer throws your setup away. In return, the collapse of Winter's Heart's Blizzard deals 100/125/150% (was 150/200/250%).
+- Druid beast moves: Rend, Pounce and Maul hit a little softer than before, because claws, Savage Flurry and Thrash now add to them. In a form your own healing spells heal 80% as a wolf and 60% as a bear. The Feral Totem gem now raises every beast move and the claws.
+- Reaver talents hit harder: Soulreaper lasts up to 10 seconds and gives up to +40% damage (was 8 seconds, +25%), Death's Echo strikes again for up to 90% (was 60%), Rotting Aura deals up to 35% of the abomination's hit (was 25%) and Flesh Cleaver up to +70% (was +50%).
+- Sorcerer Chain Lightning: an arc that has no new enemy to jump to and returns to one it already hit now deals 30% of its damage instead of half.
+- Warlock minions can no longer be attacked: monsters ignore them and nothing hurts them, so none of their damage reaches you any more, they no longer wither when you run out of mana, and nobody bumps into them. A minion now only goes when you sacrifice it. The cost of an army is the mana it holds back.
+- Warlock minions have their own names: Bone Thrall, Gravewretch and Deathsworn Champion (warriors), Ossuary Sentinel, Marrowhulk and Grave Wyrm (guards), Hollow Marksman (archer), Hexbound Acolyte, Cryptlord and Pactbound Wraith (mages).
+- Warlock minions learn new abilities as you level: warriors Cleave (40) and Executioner (100), guards Bulwark, which makes you take less damage while they stand near you (30), and Shield Bash (80), archers Volley (90), and mages Hex Bolt (100) and Death Nova (140). Minions hit a little harder, and your first minions no longer fall behind the later ones.
+- Warlock talents and gear that worked on the old minion damage got a new job: Bound Souls and the Soul Anchor gem make your army hold back less mana, Grave Patience makes sacrifices hit harder, and Lord of the Legion's third rank gives +25% minion damage. Dark Communion's drawback is now that the army holds back 10% more mana.
+- The practising students at the Edron Academy now wear caster robes in many hand-picked colours instead of often appearing as an elf, a dwarf or an orc.
+- Adventure Guide: when you track a hunt, the arrow and the map mark now point at the way in to the hunting ground (the stairs, hole or ladder that leads into it) for the whole way, instead of a spot in the middle of the hunt that could lie under the sea. The steps on the card still describe how to get there.
+
+### Fixed
+
+- The moonsilver weapon mastery bonus now also works for the Reaver's harrowed, the Warlock's accursed and the Chronomancer's aeonic moonsilver weapons, as it does for the originals.
+- The sphere outside Ahau's lever room in Iksupan now takes characters of level 250 or higher on into the deep undercity, and the undercity is now home to Iks Yapunacs, Mitmah Scouts and Mitmah Seers (it was empty). Characters under level 150 trying the Iksupan entrance in Tiquanda are now told why it won't open.
+- Logging out inside Professor Ypsilon's replication chamber no longer leaves you locked in the empty room when you log back in: you are put outside the door.
+- The Goblin King trial on Rookgaard works again: the lever starts the fight and the door to the rewards opens. The Goblin King is now much tougher but hits very softly, and every so often he raises a reflect: hitting him then does him no harm and sends half of the damage back to you, so watch for his shout.
+- The False Ascension now takes parties of 6 to 8 players, one per plate, and the raid window says so (it said up to 6).
+- Reaver, Nightblade, Chronomancer and Warlock spells and stances now play spell sounds, borrowed from the classic spells that fit them best.
+- The Cyclopedia map no longer shows a black screen for houses in Albion and Camelot (and other Vestara areas): "Show on map" now shows the map there too.
+- Raid warning squares now disappear the moment the attack lands instead of lingering for up to three seconds, so it is easier to tell which squares are still dangerous when a boss layers attacks. Ferumbras's Lesson in Division beam now runs straight and matches its picture.
+- Fog no longer has square holes in it where walls, trees or rocks stand outdoors.
+- Rain no longer seems to fall upwards while you walk south, and it now falls in forests and among rocks, bushes and statues; before, every tree kept the rain off its square.
+- Spell pictures now match the squares they hit: the Warlock's Bone Wave, Soul Lash and Void Spike were drawn one square short of where they strike, and the Reaver's Grave and Rime waves left their two front corner squares without a picture although they hit there.
+- A locked door with no key north of Kazordoon's lower halls (around 32657, 31965, 8) is now open to everyone.
+- The door to the Haunted House cellar in Venore (Dream Courts) is now open to everyone, quest or not.
+- After using an affix stone, the item's tooltip now shows its new affixes straight away, also when the item is in your backpack.
+- Changing your character's name no longer wipes your hotkeys, keybinds and action bars: they move to the new name the next time you log in. This works for every name change made after this update.
+
+<!-- /vestara-client:0.28.0 -->
+
 <!-- vestara-client:0.27.0 -->
 <!-- source-archive-sha256:b51fae61dc8091600fc12d7fb765d68d3c1d13b22974f82fffea264be3ec78b0 -->
 <!-- source-content-sha256-v1:c674ffb1ad2adbf2b929fd4278b3dd0877e2c71fb9be604f17f570e75f6bcca9 -->
