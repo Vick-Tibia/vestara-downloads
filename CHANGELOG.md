@@ -4,6 +4,37 @@ Published player-client updates, newest version first. Dates are the UTC release
 
 <!-- vestara-client-history:v1; maintained by the publisher -->
 
+<!-- vestara-client:0.31.0 -->
+<!-- source-archive-sha256:02ca10016839a85efcbc3454afdd326480fe4942ae8177f4e2a5bb2419c5df92 -->
+<!-- source-content-sha256-v1:dad01f2c827241b7e04208b4f46e2e2d1486fe8a760af4fd9cd7688e58c13270 -->
+## 0.31.0 — 2026-11-28
+
+Client update
+
+[Release and downloads](https://github.com/Vick-Tibia/vestara-downloads/releases/tag/client-0.31.0)
+
+### Added
+
+- After 4 hours of hunting the game reminds you to take a break and go for a walk outside, and again every 4 hours after that. Training doesn't count, and a pause of 15 minutes starts the count again.
+- Premium accounts get 10% more experience from hunting.
+- Master cooks can make a trailblazer's stew (30 minutes of stamina) and master alchemists a stamina extension (60 minutes, once every 12 hours). Together they restore up to 90 minutes of stamina a day, and only up to 39 hours: the bonus above that still comes from resting offline.
+- A tier 3 Restoration Font now fills your stamina to the full 42 hours once a week, when you are missing at least 3 hours.
+- Store: wings and auras are now shown animated on your own character, walking, when you open an offer, so you can see exactly what you are buying. Outfit and mount previews walk smoothly too.
+
+### Changed
+
+- Bestiary milestones now give twice as much experience, so hunting many different creatures pays off more than farming one spot. Bestiary and task board experience are now halved at low stamina, like hunting; with no stamina left, milestones and task rewards wait until you have rested.
+- Items need their required level again: gear, weapons and ammunition show the level on them, and you can only equip them once you reach it. Gear you already wear above your level stops working until you reach it, so get your gear from content at your level.
+- Stamina is back. Hunting uses it and it refills while you are logged out, a minute for every minute offline (three times faster than in Tibia), so if you rest about as long as you play you stay near full. With more than 39 hours left premium players earn 50% more experience, at 14 hours or less everyone earns half, and at 0 hunting gives no experience.
+- Raids: Ironjaw now gives less experience as you level and none from level 100, since he is easy to beat alone by then; his gold, tokens and items are unchanged. Ferumbras and The False Ascension give much more experience: 4 levels' worth at level 400 for Ferumbras and 5 at level 800 for The False Ascension, with at least 1.5 and 2 levels' worth at any higher level.
+- Customise Character: wings and auras now play their animations in the preview and are no longer cut off at the edges.
+
+### Fixed
+
+- The in-game "What's new" card no longer shows stray symbols such as "Â·" in the patch notes.
+
+<!-- /vestara-client:0.31.0 -->
+
 <!-- vestara-client:0.28.0 -->
 <!-- source-archive-sha256:f6a990231226dcc2cc438901e84537b4db628f3d5f5fa14aea7f5acabb95c99d -->
 <!-- source-content-sha256-v1:4337d5d6a460a211ca2a44db3e0081c646d90629d4ece0ceb35d83fb320e59a5 -->
